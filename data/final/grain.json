@@ -76,7 +76,7 @@
         "Paid plan required"
       ],
       "excerpt": "The Grain Public API provides programmatic access to your organization's recorded calls, transcripts, and highlights using Bearer tokens on paid plans.",
-      "retrieved_at": "2026-09-16T13:37:43.985618Z"
+      "retrieved_at": "2026-09-16T13:44:40.184861Z"
     }
   ],
   "confidence": {
@@ -93,7 +93,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.987325Z",
+    "researched_at": "2026-09-16T13:44:40.184861Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

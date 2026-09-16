@@ -78,7 +78,7 @@
         "API availability"
       ],
       "excerpt": "Gladly REST API enables integration with customer profiles and conversations using API tokens issued through the Gladly admin settings.",
-      "retrieved_at": "2026-09-16T13:37:43.918307Z"
+      "retrieved_at": "2026-09-16T13:44:40.118501Z"
     },
     {
       "url": "https://www.gladly.com/pricing/",
@@ -89,7 +89,7 @@
         "Paid plan required"
       ],
       "excerpt": "Gladly is priced on an enterprise per-seat model with annual commitments, requiring direct sales consultation.",
-      "retrieved_at": "2026-09-16T13:37:43.918307Z"
+      "retrieved_at": "2026-09-16T13:44:40.118501Z"
     }
   ],
   "confidence": {
@@ -113,7 +113,7 @@
     "notes": "Verified by independent audit against official source: Enterprise customer service platform requiring commercial sales agreement."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.918307Z",
+    "researched_at": "2026-09-16T13:44:40.118501Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

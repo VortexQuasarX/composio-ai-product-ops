@@ -64,7 +64,7 @@
         "No developer access found"
       ],
       "excerpt": "NotebookLM is an experimental web application developed by Google Labs. It offers no public API endpoints for third-party developer integrations.",
-      "retrieved_at": "2026-09-16T13:37:43.979241Z"
+      "retrieved_at": "2026-09-16T13:44:40.179835Z"
     }
   ],
   "confidence": {
@@ -88,7 +88,7 @@
     "notes": "Verified by independent audit against official source: Consumer web application only; no public developer API exists."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.979241Z",
+    "researched_at": "2026-09-16T13:44:40.179835Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

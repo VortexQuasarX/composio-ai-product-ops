@@ -80,7 +80,7 @@
         "Self-serve free"
       ],
       "excerpt": "QuickBooks Online API uses OAuth 2.0 to authenticate and authorize requests. Developers can create free sandbox apps in the Intuit Developer portal.",
-      "retrieved_at": "2026-09-16T13:37:43.975177Z"
+      "retrieved_at": "2026-09-16T13:44:40.171803Z"
     }
   ],
   "confidence": {
@@ -97,7 +97,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.975177Z",
+    "researched_at": "2026-09-16T13:44:40.171803Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

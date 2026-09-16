@@ -79,7 +79,7 @@
         "OAuth2"
       ],
       "excerpt": "Jira Cloud REST API v3 is an HTTP interface to manage Jira data. Requests are authenticated via API tokens with Basic Auth or OAuth 2.0.",
-      "retrieved_at": "2026-09-16T13:37:43.963604Z"
+      "retrieved_at": "2026-09-16T13:44:40.163880Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.963604Z",
+    "researched_at": "2026-09-16T13:44:40.164885Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

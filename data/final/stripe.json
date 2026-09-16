@@ -81,7 +81,7 @@
         "Bearer Token"
       ],
       "excerpt": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard. Authenticate via Bearer tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.970153Z"
+      "retrieved_at": "2026-09-16T13:44:40.168499Z"
     },
     {
       "url": "https://dashboard.stripe.com/register",
@@ -92,7 +92,7 @@
         "Developer account"
       ],
       "excerpt": "Create a free Stripe account to immediately access the developer sandbox and generate test API keys.",
-      "retrieved_at": "2026-09-16T13:37:43.971163Z"
+      "retrieved_at": "2026-09-16T13:44:40.168499Z"
     }
   ],
   "confidence": {
@@ -115,7 +115,7 @@
     "notes": "Verified by independent audit against official source: Gold standard self-serve developer sandbox with instant test keys."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.971163Z",
+    "researched_at": "2026-09-16T13:44:40.168499Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

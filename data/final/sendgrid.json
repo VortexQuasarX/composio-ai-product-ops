@@ -79,7 +79,7 @@
         "Bearer Token"
       ],
       "excerpt": "The SendGrid v3 API is a RESTful API. Authenticate requests by sending your API key as a Bearer token in the Authorization header.",
-      "retrieved_at": "2026-09-16T13:37:43.935599Z"
+      "retrieved_at": "2026-09-16T13:44:40.144682Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.935599Z",
+    "researched_at": "2026-09-16T13:44:40.145199Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

@@ -75,7 +75,7 @@
         "Partner-gated"
       ],
       "excerpt": "The Marketing Developer Platform enables enterprise partners to build integrations with LinkedIn Ad campaigns. Applications must be reviewed and approved for access.",
-      "retrieved_at": "2026-09-16T13:37:43.929952Z"
+      "retrieved_at": "2026-09-16T13:44:40.140329Z"
     }
   ],
   "confidence": {
@@ -92,7 +92,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.929952Z",
+    "researched_at": "2026-09-16T13:44:40.140985Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

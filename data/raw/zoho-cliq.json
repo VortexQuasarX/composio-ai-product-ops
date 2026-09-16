@@ -76,7 +76,7 @@
         "API availability"
       ],
       "excerpt": "Zoho Cliq REST API v2 enables external applications to interact with channels and post messages using OAuth 2.0 tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.919985Z"
+      "retrieved_at": "2026-09-16T13:44:40.121886Z"
     }
   ],
   "confidence": {
@@ -93,7 +93,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.921882Z",
+    "researched_at": "2026-09-16T13:44:40.121886Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

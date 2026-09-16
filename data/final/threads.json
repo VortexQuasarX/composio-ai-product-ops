@@ -76,7 +76,7 @@
         "Self-serve free"
       ],
       "excerpt": "The Threads API allows developers to publish posts, retrieve insights, and manage replies on Threads using OAuth 2.0 authentication.",
-      "retrieved_at": "2026-09-16T13:37:43.934590Z"
+      "retrieved_at": "2026-09-16T13:44:40.144156Z"
     }
   ],
   "confidence": {
@@ -100,7 +100,7 @@
     "notes": "Verified by independent audit against official source: Public Threads API launched June 2024 via Meta for Developers."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.934590Z",
+    "researched_at": "2026-09-16T13:44:40.144682Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

@@ -80,7 +80,7 @@
         "OAuth2"
       ],
       "excerpt": "The Smartsheet API 2.0 provides REST access to sheets and automated workflows. Authenticate with an API access token passed in the Authorization header.",
-      "retrieved_at": "2026-09-16T13:37:43.968639Z"
+      "retrieved_at": "2026-09-16T13:44:40.167498Z"
     }
   ],
   "confidence": {
@@ -105,7 +105,7 @@
     "notes": "Resolved during independent verification pass: corrected buildability. Ground truth source: 30-day trial allows API key creation; ongoing API use requires paid plan."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.968639Z",
+    "researched_at": "2026-09-16T13:44:40.167498Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

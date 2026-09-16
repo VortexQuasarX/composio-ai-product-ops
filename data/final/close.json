@@ -79,7 +79,7 @@
         "Basic Auth"
       ],
       "excerpt": "The Close API is organized around REST. All requests must be authenticated using HTTP Basic Auth using your API key as the username.",
-      "retrieved_at": "2026-09-16T13:37:43.909695Z"
+      "retrieved_at": "2026-09-16T13:44:40.111786Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.909695Z",
+    "researched_at": "2026-09-16T13:44:40.111786Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

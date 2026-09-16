@@ -77,7 +77,7 @@
         "Self-serve free"
       ],
       "excerpt": "The Neo4j HTTP API executes Cypher statements over HTTP transactions, authenticated via HTTP Basic credentials.",
-      "retrieved_at": "2026-09-16T13:37:43.957235Z"
+      "retrieved_at": "2026-09-16T13:44:40.160207Z"
     }
   ],
   "confidence": {
@@ -94,7 +94,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.957235Z",
+    "researched_at": "2026-09-16T13:44:40.160207Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

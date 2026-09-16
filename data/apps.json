@@ -501,13 +501,13 @@
     "id": "paygent-connect",
     "name": "Paygent Connect",
     "category": "FINANCE AND FINTECH",
-    "starting_url": "https://www.paygent.co.jp"
+    "starting_url": "https://docs.nmi.com"
   },
   {
     "id": "ipayx",
     "name": "iPayX",
     "category": "FINANCE AND FINTECH",
-    "starting_url": "https://ipayx.com"
+    "starting_url": "https://www.ipayx.ai/docs"
   },
   {
     "id": "quickbooks",

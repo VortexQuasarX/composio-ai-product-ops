@@ -78,7 +78,7 @@
         "OAuth2"
       ],
       "excerpt": "Copper REST API requires API key authentication via X-PW-AccessToken and X-PW-UserEmail headers.",
-      "retrieved_at": "2026-09-16T13:37:43.910228Z"
+      "retrieved_at": "2026-09-16T13:44:40.112319Z"
     }
   ],
   "confidence": {
@@ -95,7 +95,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.910228Z",
+    "researched_at": "2026-09-16T13:44:40.112319Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

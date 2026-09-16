@@ -81,7 +81,7 @@
         "Personal Access Token"
       ],
       "excerpt": "The Sentry API is a RESTful API. Requests are authenticated via an HTTP Bearer token generated from your Sentry account settings.",
-      "retrieved_at": "2026-09-16T13:37:43.961083Z"
+      "retrieved_at": "2026-09-16T13:44:40.162311Z"
     }
   ],
   "confidence": {
@@ -98,7 +98,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.961083Z",
+    "researched_at": "2026-09-16T13:44:40.162311Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

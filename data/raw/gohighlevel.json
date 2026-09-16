@@ -79,7 +79,7 @@
         "Bearer Token"
       ],
       "excerpt": "HighLevel API 2.0 utilizes OAuth 2.0 authentication to securely access sub-account locations, contacts, and marketing funnels.",
-      "retrieved_at": "2026-09-16T13:37:43.930960Z"
+      "retrieved_at": "2026-09-16T13:44:40.141526Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.930960Z",
+    "researched_at": "2026-09-16T13:44:40.141526Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

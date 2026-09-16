@@ -79,7 +79,7 @@
         "API Key"
       ],
       "excerpt": "The WooCommerce REST API is fully integrated into WooCommerce. Authentication is handled via Consumer Key and Consumer Secret credentials.",
-      "retrieved_at": "2026-09-16T13:37:43.937772Z"
+      "retrieved_at": "2026-09-16T13:44:40.146264Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.937772Z",
+    "researched_at": "2026-09-16T13:44:40.146264Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

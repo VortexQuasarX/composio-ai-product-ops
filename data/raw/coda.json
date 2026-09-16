@@ -80,7 +80,7 @@
         "Self-serve free"
       ],
       "excerpt": "The Coda REST API allows developers to read, insert, and update rows in Coda tables using Bearer tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.967632Z"
+      "retrieved_at": "2026-09-16T13:44:40.166492Z"
     }
   ],
   "confidence": {
@@ -97,7 +97,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.967632Z",
+    "researched_at": "2026-09-16T13:44:40.166492Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

@@ -75,7 +75,7 @@
         "Paid plan required"
       ],
       "excerpt": "The Devin API allows developers to spawn and interact with Devin sessions programmatically using Bearer API keys.",
-      "retrieved_at": "2026-09-16T13:37:43.983098Z"
+      "retrieved_at": "2026-09-16T13:44:40.182343Z"
     }
   ],
   "confidence": {
@@ -99,7 +99,7 @@
     "notes": "Verified by independent audit against official source: Cognition Devin API requires paid compute tokens / active subscription."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.983098Z",
+    "researched_at": "2026-09-16T13:44:40.182343Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

@@ -82,7 +82,7 @@
         "API Key"
       ],
       "excerpt": "Supabase automatically generates RESTful APIs via PostgREST and GraphQL endpoints via pg_graphql directly from your PostgreSQL schema.",
-      "retrieved_at": "2026-09-16T13:37:43.956236Z"
+      "retrieved_at": "2026-09-16T13:44:40.159669Z"
     },
     {
       "url": "https://supabase.com/docs/reference/api/introduction",
@@ -93,7 +93,7 @@
         "Self-serve free"
       ],
       "excerpt": "The Management API enables programmatic creation of Supabase projects, databases, and secrets using personal access tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.956236Z"
+      "retrieved_at": "2026-09-16T13:44:40.159669Z"
     }
   ],
   "confidence": {
@@ -116,7 +116,7 @@
     "notes": "Verified by independent audit against official source: Vendor-supported MCP server by Supabase team (supabase/mcp-server-supabase)."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.956236Z",
+    "researched_at": "2026-09-16T13:44:40.159669Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

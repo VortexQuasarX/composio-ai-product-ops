@@ -82,7 +82,7 @@
         "API availability"
       ],
       "excerpt": "Salesforce REST API provides a powerful, convenient, and simple Web services API for interacting with Lightning Platform. It supports OAuth 2.0 authentication and standard HTTP methods.",
-      "retrieved_at": "2026-09-16T13:37:43.904229Z"
+      "retrieved_at": "2026-09-16T13:44:40.106454Z"
     },
     {
       "url": "https://developer.salesforce.com/signup",
@@ -93,7 +93,7 @@
         "Developer account"
       ],
       "excerpt": "Sign up for a free, full-featured Developer Edition of Salesforce to build, test, and package applications without expiring.",
-      "retrieved_at": "2026-09-16T13:37:43.904229Z"
+      "retrieved_at": "2026-09-16T13:44:40.106975Z"
     }
   ],
   "confidence": {
@@ -110,7 +110,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.904752Z",
+    "researched_at": "2026-09-16T13:44:40.106975Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

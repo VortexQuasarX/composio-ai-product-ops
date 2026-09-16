@@ -78,7 +78,7 @@
         "Self-serve free"
       ],
       "excerpt": "The Plaid API is a set of REST endpoints. All requests require authentication using your client_id and secret passed in HTTP headers or body.",
-      "retrieved_at": "2026-09-16T13:37:43.972165Z"
+      "retrieved_at": "2026-09-16T13:44:40.169499Z"
     }
   ],
   "confidence": {
@@ -95,7 +95,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.972165Z",
+    "researched_at": "2026-09-16T13:44:40.169499Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

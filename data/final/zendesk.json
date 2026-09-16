@@ -80,7 +80,7 @@
         "OAuth2"
       ],
       "excerpt": "The Zendesk Support REST API lets you manage tickets, users, and organizations using OAuth 2.0 or an API token combined with an agent's email address.",
-      "retrieved_at": "2026-09-16T13:37:43.911830Z"
+      "retrieved_at": "2026-09-16T13:44:40.113359Z"
     }
   ],
   "confidence": {
@@ -105,7 +105,7 @@
     "notes": "Resolved during independent verification pass: corrected buildability. Ground truth source: 14-day trial; supports both OAuth2 and API token (Basic auth email/token:key)."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.911830Z",
+    "researched_at": "2026-09-16T13:44:40.113359Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

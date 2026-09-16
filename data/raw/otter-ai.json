@@ -65,7 +65,7 @@
         "No developer access found"
       ],
       "excerpt": "Otter.ai provides automated meeting summaries and live transcription. No public developer API documentation or self-serve developer credentials exist.",
-      "retrieved_at": "2026-09-16T13:37:43.979241Z"
+      "retrieved_at": "2026-09-16T13:44:40.179835Z"
     }
   ],
   "confidence": {
@@ -82,7 +82,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.979241Z",
+    "researched_at": "2026-09-16T13:44:40.179835Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

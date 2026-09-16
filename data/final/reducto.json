@@ -76,7 +76,7 @@
         "Self-serve free"
       ],
       "excerpt": "Reducto API extracts structured content from documents. All requests require Bearer token authentication with your Reducto API key.",
-      "retrieved_at": "2026-09-16T13:37:43.982101Z"
+      "retrieved_at": "2026-09-16T13:44:40.181836Z"
     }
   ],
   "confidence": {
@@ -93,7 +93,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.982101Z",
+    "researched_at": "2026-09-16T13:44:40.181836Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

@@ -83,7 +83,7 @@
         "OAuth2"
       ],
       "excerpt": "You can use the GitHub REST API to create and manage repositories, issues, pull requests, and automations using personal access tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.952434Z"
+      "retrieved_at": "2026-09-16T13:44:40.158076Z"
     },
     {
       "url": "https://github.com/settings/tokens",
@@ -94,7 +94,7 @@
         "Personal Access Token"
       ],
       "excerpt": "Personal access tokens function like ordinary OAuth access tokens. They can be used to authenticate to the GitHub API over HTTPS.",
-      "retrieved_at": "2026-09-16T13:37:43.952434Z"
+      "retrieved_at": "2026-09-16T13:44:40.158076Z"
     }
   ],
   "confidence": {
@@ -117,7 +117,7 @@
     "notes": "Verified by independent audit against official source: Official reference MCP server by Anthropic/MCP core; instant free PATs."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.953435Z",
+    "researched_at": "2026-09-16T13:44:40.158076Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

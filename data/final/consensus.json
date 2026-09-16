@@ -75,7 +75,7 @@
         "Paid plan required"
       ],
       "excerpt": "Consensus provides access to over 200 million research papers via REST API for enterprise AI agents, available through customized commercial access tiers.",
-      "retrieved_at": "2026-09-16T13:37:43.981098Z"
+      "retrieved_at": "2026-09-16T13:44:40.180836Z"
     }
   ],
   "confidence": {
@@ -92,7 +92,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.981098Z",
+    "researched_at": "2026-09-16T13:44:40.180836Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

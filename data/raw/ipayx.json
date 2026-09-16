@@ -2,36 +2,36 @@
   "id": "ipayx",
   "app_name": "iPayX",
   "category": "FINANCE AND FINTECH",
-  "website": "https://ipayx.com",
-  "one_line_description": "Enterprise electronic bill presentment and payment (EBPP) processing platform for healthcare and municipalities.",
+  "website": "https://www.ipayx.ai",
+  "one_line_description": "AI-native foreign exchange (FX) audit engine and protocol providing algorithmic spread analysis and real-time benchmark rate audits.",
   "authentication": {
     "methods": [
-      "API Key",
-      "Basic Auth"
+      "Bearer Token",
+      "API Key"
     ],
     "primary_method": "API Key",
     "oauth2": false,
     "api_key": true,
-    "basic_auth": true,
-    "bearer_token": false,
+    "basic_auth": false,
+    "bearer_token": true,
     "personal_access_token": false,
-    "other": "Proprietary merchant token credentials"
+    "other": "Bearer API Key header"
   },
   "credential_access": {
-    "self_serve": false,
-    "free_access": false,
-    "trial_available": false,
-    "paid_plan_required": true,
-    "admin_approval_required": true,
-    "contact_sales_required": true,
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
     "partnership_required": false,
     "developer_account_required": true,
-    "access_classification": "Contact-sales gated",
-    "notes": "Specialized municipal and healthcare bill pay portal; developer onboarding is handled strictly through enterprise sales engagement."
+    "access_classification": "Self-serve free",
+    "notes": "Self-serve developer signup at ipayx.ai/docs provides instant API key with free tier (10 audits/day); paid tier for high-volume enterprise routing."
   },
   "api": {
     "exists": true,
-    "public": false,
+    "public": true,
     "type": [
       "REST"
     ],
@@ -40,47 +40,50 @@
     "sdk": false,
     "cli": false,
     "webhooks": false,
-    "documentation_available": false,
+    "documentation_available": true,
     "breadth": "Narrow",
     "major_resource_areas": [
-      "Bill Presentment",
-      "Payment Processing",
-      "Reconciliation"
+      "audit_transaction",
+      "compare_fx_sources",
+      "spread_calculation",
+      "forensic_reports"
     ]
   },
   "mcp": {
-    "exists": false,
-    "official": false,
-    "vendor_supported": false,
-    "community": false,
+    "exists": true,
+    "official": true,
+    "vendor_supported": true,
+    "community": true,
     "composio_support": false,
-    "url": null,
-    "notes": "No MCP server found; not supported by Composio."
+    "url": "https://github.com/iPAYX-Technologies/mcp-fx-audit",
+    "notes": "Official MCP server repository maintained at iPAYX-Technologies/mcp-fx-audit for autonomous agent FX auditing."
   },
   "buildability": {
-    "verdict": "No practical public API",
-    "blocker": "No public developer API or documentation available",
-    "rationale": "The platform does not expose documented programmatic interfaces for external agent tools."
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
   },
   "evidence": [
     {
-      "url": "https://ipayx.com",
-      "title": "iPayX Enterprise Billing",
-      "source_type": "official_pricing",
+      "url": "https://www.ipayx.ai/docs",
+      "title": "iPayX Protocol Developer Documentation & MCP Integration",
+      "source_type": "official_docs",
       "supports": [
-        "Contact-sales gated",
-        "Paid plan required"
+        "REST API",
+        "API Key",
+        "Self-serve free",
+        "Official MCP"
       ],
-      "excerpt": "iPayX provides electronic payment processing tailored for institutions and government entities. Access is negotiated via corporate sales agreements.",
-      "retrieved_at": "2026-09-16T13:37:43.973671Z"
+      "excerpt": "iPayX provides REST endpoints and an official Model Context Protocol (MCP) server (iPAYX-Technologies/mcp-fx-audit) for AI agents to audit foreign exchange transactions against real-time mid-market rates.",
+      "retrieved_at": "2026-09-16T13:44:40.170622Z"
     }
   ],
   "confidence": {
-    "overall": 0.61,
-    "auth": 0.55,
+    "overall": 0.65,
+    "auth": 0.6,
     "credential_access": 0.6,
     "api": 0.6,
-    "mcp": 0.7
+    "mcp": 0.85
   },
   "verification": {
     "status": "unverified",
@@ -89,7 +92,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.973671Z",
+    "researched_at": "2026-09-16T13:44:40.171803Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

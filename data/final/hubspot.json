@@ -80,7 +80,7 @@
         "API availability"
       ],
       "excerpt": "HubSpot's API gives developers full access to CRM records, marketing assets, and platform workflows using standard REST protocols.",
-      "retrieved_at": "2026-09-16T13:37:43.905277Z"
+      "retrieved_at": "2026-09-16T13:44:40.107621Z"
     },
     {
       "url": "https://developers.hubspot.com/docs/api/private-apps",
@@ -91,7 +91,7 @@
         "Self-serve free"
       ],
       "excerpt": "Private apps allow developers to generate custom access tokens to authenticate API calls without public app marketplace review.",
-      "retrieved_at": "2026-09-16T13:37:43.905277Z"
+      "retrieved_at": "2026-09-16T13:44:40.107621Z"
     }
   ],
   "confidence": {
@@ -108,7 +108,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.905277Z",
+    "researched_at": "2026-09-16T13:44:40.107621Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

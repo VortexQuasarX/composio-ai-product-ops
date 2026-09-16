@@ -78,7 +78,7 @@
         "Admin-gated"
       ],
       "excerpt": "To make calls to the Google Ads API, you need OAuth 2.0 credentials and an approved developer token linked to a manager account.",
-      "retrieved_at": "2026-09-16T13:37:43.928435Z"
+      "retrieved_at": "2026-09-16T13:44:40.139281Z"
     }
   ],
   "confidence": {
@@ -103,7 +103,7 @@
     "notes": "Resolved during independent verification pass: corrected buildability. Ground truth source: Requires Developer Token approval from Google in addition to OAuth2."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.928435Z",
+    "researched_at": "2026-09-16T13:44:40.139281Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

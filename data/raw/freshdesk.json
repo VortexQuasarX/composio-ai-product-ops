@@ -80,7 +80,7 @@
         "Basic Auth"
       ],
       "excerpt": "Freshdesk provides a RESTful API to integrate helpdesk operations. Authentication is performed via HTTP Basic authentication using an API key.",
-      "retrieved_at": "2026-09-16T13:37:43.912902Z"
+      "retrieved_at": "2026-09-16T13:44:40.114414Z"
     }
   ],
   "confidence": {
@@ -97,7 +97,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.912902Z",
+    "researched_at": "2026-09-16T13:44:40.114414Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

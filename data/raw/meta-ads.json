@@ -78,7 +78,7 @@
         "Admin-gated"
       ],
       "excerpt": "The Marketing API is an HTTP-based RESTful API that enables businesses to manage ad accounts, create campaigns, and track conversion insights using OAuth access tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.929952Z"
+      "retrieved_at": "2026-09-16T13:44:40.139800Z"
     }
   ],
   "confidence": {
@@ -95,7 +95,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.929952Z",
+    "researched_at": "2026-09-16T13:44:40.140329Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

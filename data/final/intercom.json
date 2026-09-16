@@ -79,7 +79,7 @@
         "OAuth2"
       ],
       "excerpt": "The Intercom API is organized around REST. All API access requires authentication using Bearer tokens obtained via OAuth or direct access token generation in the developer workspace.",
-      "retrieved_at": "2026-09-16T13:37:43.912359Z"
+      "retrieved_at": "2026-09-16T13:44:40.113892Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.912359Z",
+    "researched_at": "2026-09-16T13:44:40.113892Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

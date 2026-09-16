@@ -79,7 +79,7 @@
         "Bearer Token"
       ],
       "excerpt": "The Pinterest API v5 allows developers to manage organic and advertising resources via REST endpoints authenticated with OAuth 2.0 Bearer tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.934072Z"
+      "retrieved_at": "2026-09-16T13:44:40.143623Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.934072Z",
+    "researched_at": "2026-09-16T13:44:40.144156Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

@@ -182,17 +182,17 @@ FINANCE_APPS = {
         ]
     },
     "paygent-connect": {
-        "website": "https://www.paygent.co.jp",
-        "one_line_description": "Japanese payment service provider (PSP) joint venture between NTT Data and Mitsubishi UFJ NICOS.",
+        "website": "https://docs.nmi.com",
+        "one_line_description": "NMI-powered white-label payment gateway wrapper providing Direct Post API, Customer Vault tokenization, and multi-processor transaction orchestration.",
         "authentication": {
-            "methods": ["Basic Auth", "API Key", "Other"],
-            "primary_method": "Basic Auth",
+            "methods": ["API Key", "Other"],
+            "primary_method": "API Key",
             "oauth2": False,
             "api_key": True,
-            "basic_auth": True,
+            "basic_auth": False,
             "bearer_token": False,
             "personal_access_token": False,
-            "other": "Client Certificate (mTLS) + Merchant ID / Password"
+            "other": "NMI Security Key (passed as query param or header) + Merchant Account ID"
         },
         "credential_access": {
             "self_serve": False,
@@ -204,20 +204,20 @@ FINANCE_APPS = {
             "partnership_required": True,
             "developer_account_required": True,
             "access_classification": "Partner-gated",
-            "notes": "Enterprise payment gateway strictly limited to verified Japanese merchants and financial partners; formal sales onboarding and merchant screening required."
+            "notes": "NMI-powered gateway wrapper requiring merchant underwriting and partner portal onboarding; security keys are generated through administrative merchant control panel."
         },
         "api": {
             "exists": True,
             "public": True,
-            "type": ["REST", "SDK"],
+            "type": ["REST", "Webhooks"],
             "rest": True,
             "graphql": False,
             "sdk": True,
             "cli": False,
             "webhooks": True,
             "documentation_available": True,
-            "breadth": "Moderate",
-            "major_resource_areas": ["Credit Card Settlement", "Convenience Store Payments", "Bank Transfers", "Recurring Billing", "Refunds"]
+            "breadth": "Broad",
+            "major_resource_areas": ["Customer Vault", "Direct Post / Three-Step Redirect", "QuickClick Payments", "Transaction Query & Reporting", "Recurring Billing"]
         },
         "mcp": {
             "exists": False,
@@ -230,68 +230,68 @@ FINANCE_APPS = {
         },
         "evidence": [
             {
-                "url": "https://www.paygent.co.jp/service/connect/",
-                "title": "Paygent Connect Service Overview",
+                "url": "https://docs.nmi.com",
+                "title": "NMI Developer Documentation - Gateway APIs",
                 "source_type": "official_docs",
-                "supports": ["REST API", "Partner-gated", "Paid plan required"],
-                "excerpt": "Paygent Connect provides automated payment processing protocols for e-commerce. Merchant registration, contract signing, and security vetting are required."
+                "supports": ["REST API", "API Key", "Partner-gated"],
+                "excerpt": "NMI provides Direct Post, Three-Step Redirect, and Customer Vault APIs authenticated via private security keys. Access requires an approved merchant/partner account."
             }
         ]
     },
     "ipayx": {
-        "website": "https://ipayx.com",
-        "one_line_description": "Enterprise electronic bill presentment and payment (EBPP) processing platform for healthcare and municipalities.",
+        "website": "https://www.ipayx.ai",
+        "one_line_description": "AI-native foreign exchange (FX) audit engine and protocol providing algorithmic spread analysis and real-time benchmark rate audits.",
         "authentication": {
-            "methods": ["API Key", "Basic Auth"],
+            "methods": ["Bearer Token", "API Key"],
             "primary_method": "API Key",
             "oauth2": False,
             "api_key": True,
-            "basic_auth": True,
-            "bearer_token": False,
+            "basic_auth": False,
+            "bearer_token": True,
             "personal_access_token": False,
-            "other": "Proprietary merchant token credentials"
+            "other": "Bearer API Key header"
         },
         "credential_access": {
-            "self_serve": False,
-            "free_access": False,
-            "trial_available": False,
-            "paid_plan_required": True,
-            "admin_approval_required": True,
-            "contact_sales_required": True,
+            "self_serve": True,
+            "free_access": True,
+            "trial_available": True,
+            "paid_plan_required": False,
+            "admin_approval_required": False,
+            "contact_sales_required": False,
             "partnership_required": False,
             "developer_account_required": True,
-            "access_classification": "Contact-sales gated",
-            "notes": "Specialized municipal and healthcare bill pay portal; developer onboarding is handled strictly through enterprise sales engagement."
+            "access_classification": "Self-serve free",
+            "notes": "Self-serve developer signup at ipayx.ai/docs provides instant API key with free tier (10 audits/day); paid tier for high-volume enterprise routing."
         },
         "api": {
             "exists": True,
-            "public": False,
+            "public": True,
             "type": ["REST"],
             "rest": True,
             "graphql": False,
             "sdk": False,
             "cli": False,
             "webhooks": False,
-            "documentation_available": False,
+            "documentation_available": True,
             "breadth": "Narrow",
-            "major_resource_areas": ["Bill Presentment", "Payment Processing", "Reconciliation"]
+            "major_resource_areas": ["audit_transaction", "compare_fx_sources", "spread_calculation", "forensic_reports"]
         },
         "mcp": {
-            "exists": False,
-            "official": False,
-            "vendor_supported": False,
-            "community": False,
+            "exists": True,
+            "official": True,
+            "vendor_supported": True,
+            "community": True,
             "composio_support": False,
-            "url": None,
-            "notes": "No MCP server found; not supported by Composio."
+            "url": "https://github.com/iPAYX-Technologies/mcp-fx-audit",
+            "notes": "Official MCP server repository maintained at iPAYX-Technologies/mcp-fx-audit for autonomous agent FX auditing."
         },
         "evidence": [
             {
-                "url": "https://ipayx.com",
-                "title": "iPayX Enterprise Billing",
-                "source_type": "official_pricing",
-                "supports": ["Contact-sales gated", "Paid plan required"],
-                "excerpt": "iPayX provides electronic payment processing tailored for institutions and government entities. Access is negotiated via corporate sales agreements."
+                "url": "https://www.ipayx.ai/docs",
+                "title": "iPayX Protocol Developer Documentation & MCP Integration",
+                "source_type": "official_docs",
+                "supports": ["REST API", "API Key", "Self-serve free", "Official MCP"],
+                "excerpt": "iPayX provides REST endpoints and an official Model Context Protocol (MCP) server (iPAYX-Technologies/mcp-fx-audit) for AI agents to audit foreign exchange transactions against real-time mid-market rates."
             }
         ]
     },

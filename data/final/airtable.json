@@ -78,7 +78,7 @@
         "OAuth2"
       ],
       "excerpt": "Airtable Web API provides RESTful endpoints to query and modify records. Requests authenticate via Personal Access Tokens passed as HTTP Bearer tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.962094Z"
+      "retrieved_at": "2026-09-16T13:44:40.163355Z"
     }
   ],
   "confidence": {
@@ -95,7 +95,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.962094Z",
+    "researched_at": "2026-09-16T13:44:40.163355Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

@@ -82,7 +82,7 @@
         "OAuth2"
       ],
       "excerpt": "The Admin API lets developers read and write store data, including products, inventory, and orders, authenticated via OAuth 2.0 or custom app tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.936598Z"
+      "retrieved_at": "2026-09-16T13:44:40.145737Z"
     },
     {
       "url": "https://www.shopify.com/partners",
@@ -93,7 +93,7 @@
         "Developer account"
       ],
       "excerpt": "Join the Shopify Partner Program for free to create development stores, test APIs, and launch apps in the Shopify App Store.",
-      "retrieved_at": "2026-09-16T13:37:43.936598Z"
+      "retrieved_at": "2026-09-16T13:44:40.145737Z"
     }
   ],
   "confidence": {
@@ -116,7 +116,7 @@
     "notes": "Verified by independent audit against official source: Shopify Partner Program allows creating unlimited free development stores."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.936598Z",
+    "researched_at": "2026-09-16T13:44:40.145737Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }

@@ -75,7 +75,7 @@
         "Webhooks"
       ],
       "excerpt": "Pumble allows developers to post automated messages into channels via incoming webhook URLs and REST endpoints.",
-      "retrieved_at": "2026-09-16T13:37:43.923459Z"
+      "retrieved_at": "2026-09-16T13:44:40.134613Z"
     }
   ],
   "confidence": {
@@ -92,7 +92,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.923459Z",
+    "researched_at": "2026-09-16T13:44:40.135132Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

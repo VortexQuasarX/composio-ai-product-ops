@@ -80,7 +80,7 @@
         "OAuth2"
       ],
       "excerpt": "Front's Core API is a RESTful interface to manage shared inbox data. Requests require Bearer token authorization using either OAuth or an API token.",
-      "retrieved_at": "2026-09-16T13:37:43.913417Z"
+      "retrieved_at": "2026-09-16T13:44:40.114932Z"
     }
   ],
   "confidence": {
@@ -97,7 +97,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.913948Z",
+    "researched_at": "2026-09-16T13:44:40.114932Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

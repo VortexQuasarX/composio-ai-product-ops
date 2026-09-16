@@ -80,7 +80,7 @@
         "Bearer Token"
       ],
       "excerpt": "Adobe Commerce and Magento Open Source provide REST and GraphQL web APIs authenticated via Bearer tokens or OAuth 1.0a/2.0 integrations.",
-      "retrieved_at": "2026-09-16T13:37:43.939283Z"
+      "retrieved_at": "2026-09-16T13:44:40.148478Z"
     }
   ],
   "confidence": {
@@ -97,7 +97,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.939283Z",
+    "researched_at": "2026-09-16T13:44:40.148478Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

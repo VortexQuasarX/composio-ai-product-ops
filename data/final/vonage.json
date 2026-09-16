@@ -81,7 +81,7 @@
         "JWT"
       ],
       "excerpt": "Vonage APIs support two main authentication mechanisms: API Key/Secret for legacy APIs, and Application IDs with JSON Web Tokens (JWT) signed by a private key for modern APIs.",
-      "retrieved_at": "2026-09-16T13:37:43.927898Z"
+      "retrieved_at": "2026-09-16T13:44:40.138757Z"
     }
   ],
   "confidence": {
@@ -98,7 +98,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.928435Z",
+    "researched_at": "2026-09-16T13:44:40.138757Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

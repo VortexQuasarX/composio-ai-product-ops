@@ -77,7 +77,7 @@
         "API Key"
       ],
       "excerpt": "Binance Spot API provides RESTful endpoints. Signed endpoints require sending an X-MBX-APIKEY header and an HMAC SHA256 signature generated with your secret key.",
-      "retrieved_at": "2026-09-16T13:37:43.972165Z"
+      "retrieved_at": "2026-09-16T13:44:40.169499Z"
     }
   ],
   "confidence": {
@@ -94,7 +94,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.972165Z",
+    "researched_at": "2026-09-16T13:44:40.169499Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

@@ -1,16 +1,16 @@
 {
   "experiment_meta": {
     "sample_size": 20,
-    "pass1_fully_correct": 16,
-    "pass1_partial": 4,
+    "pass1_fully_correct": 15,
+    "pass1_partial": 5,
     "pass1_failed": 0,
-    "pass1_accuracy": 80.0,
+    "pass1_accuracy": 75.0,
     "pass2_fully_correct": 20,
     "pass2_partial": 0,
     "pass2_failed": 0,
     "pass2_accuracy": 100.0,
     "claim_level_accuracies": {
-      "auth_accuracy": 100.0,
+      "auth_accuracy": 95.0,
       "credential_access_accuracy": 100.0,
       "api_accuracy": 100.0,
       "mcp_accuracy": 100.0
@@ -19,7 +19,8 @@
       "Enterprise org admin requirements confused with developer sandbox": 1,
       "Production admin enablement confused with self-serve trial access": 1,
       "Developer token review confused with commercial partnership": 1,
-      "Paid commercial subscription confused with self-serve trial onboarding": 1
+      "Paid commercial subscription confused with self-serve trial onboarding": 1,
+      "Authentication documentation ambiguity": 1
     }
   },
   "sample_evaluations": [
@@ -347,18 +348,23 @@
       "id": "paygent-connect",
       "app_name": "Paygent Connect",
       "category": "FINANCE AND FINTECH",
-      "status": "PASS",
+      "status": "PARTIAL",
       "verified_claims": [
-        "Primary Auth: Basic Auth",
         "Access Classification: Partner-gated",
         "API Exists: True",
         "CLI Tool status: False",
         "MCP Classification (Official vs Vendor vs Community)",
         "Buildability: Needs partnership/contact-sales"
       ],
-      "failed_claims": [],
-      "failure_categories": [],
-      "corrections": {},
+      "failed_claims": [
+        "Primary Auth mismatch: expected Basic Auth, got API Key"
+      ],
+      "failure_categories": [
+        "Authentication documentation ambiguity"
+      ],
+      "corrections": {
+        "primary_auth": "Basic Auth"
+      },
       "key_notes": "Japanese payment service provider requiring formal enterprise merchant contract."
     },
     {

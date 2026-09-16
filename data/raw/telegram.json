@@ -79,7 +79,7 @@
         "Self-serve free"
       ],
       "excerpt": "The Bot API is an HTTP-based interface created for developers to build bots for Telegram. Bots can be created freely using @BotFather.",
-      "retrieved_at": "2026-09-16T13:37:43.924614Z"
+      "retrieved_at": "2026-09-16T13:44:40.136540Z"
     }
   ],
   "confidence": {
@@ -96,7 +96,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.925151Z",
+    "researched_at": "2026-09-16T13:44:40.136540Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

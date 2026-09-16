@@ -78,7 +78,7 @@
         "Bearer Token"
       ],
       "excerpt": "LiveAgent REST API v3 provides endpoints to manage tickets, agents, and departments. Authenticate via apikey header.",
-      "retrieved_at": "2026-09-16T13:37:43.915038Z"
+      "retrieved_at": "2026-09-16T13:44:40.116073Z"
     }
   ],
   "confidence": {
@@ -95,7 +95,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.915574Z",
+    "researched_at": "2026-09-16T13:44:40.116703Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

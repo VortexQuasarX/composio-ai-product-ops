@@ -80,7 +80,7 @@
         "OAuth2"
       ],
       "excerpt": "The Slack Web API allows apps to interact with Slack workspaces using standard HTTP methods and JSON responses authenticated via Bearer tokens.",
-      "retrieved_at": "2026-09-16T13:37:43.918837Z"
+      "retrieved_at": "2026-09-16T13:44:40.119509Z"
     },
     {
       "url": "https://api.slack.com/apps",
@@ -91,7 +91,7 @@
         "Developer account"
       ],
       "excerpt": "Anyone with a Slack account can create an app for free, configure bot scopes, and install it to development workspaces.",
-      "retrieved_at": "2026-09-16T13:37:43.918837Z"
+      "retrieved_at": "2026-09-16T13:44:40.119509Z"
     }
   ],
   "confidence": {
@@ -108,7 +108,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.918837Z",
+    "researched_at": "2026-09-16T13:44:40.119509Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

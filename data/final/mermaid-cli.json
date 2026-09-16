@@ -72,7 +72,7 @@
         "No developer access found"
       ],
       "excerpt": "mermaid-cli is a command-line tool that takes a mermaid definition file and outputs an SVG, PNG, or PDF file. It runs locally via Node/npm without a hosted web API.",
-      "retrieved_at": "2026-09-16T13:37:43.984618Z"
+      "retrieved_at": "2026-09-16T13:44:40.182343Z"
     }
   ],
   "confidence": {
@@ -89,7 +89,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.984618Z",
+    "researched_at": "2026-09-16T13:44:40.182343Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

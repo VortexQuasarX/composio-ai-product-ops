@@ -78,7 +78,7 @@
         "API availability"
       ],
       "excerpt": "The Podio API allows third-party developers to access items, apps, and workspaces using OAuth 2.0 authentication.",
-      "retrieved_at": "2026-09-16T13:37:43.907998Z"
+      "retrieved_at": "2026-09-16T13:44:40.110678Z"
     }
   ],
   "confidence": {
@@ -95,7 +95,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.907998Z",
+    "researched_at": "2026-09-16T13:44:40.110678Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

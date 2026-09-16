@@ -74,7 +74,7 @@
         "API Key"
       ],
       "excerpt": "A caption resource represents a YouTube caption track. The API supports downloading caption tracks via HTTP requests authorized with OAuth 2.0.",
-      "retrieved_at": "2026-09-16T13:37:43.985618Z"
+      "retrieved_at": "2026-09-16T13:44:40.183852Z"
     }
   ],
   "confidence": {
@@ -91,7 +91,7 @@
     "notes": "Initial researcher output pending independent verifier inspection."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.985618Z",
+    "researched_at": "2026-09-16T13:44:40.183852Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 1
   }

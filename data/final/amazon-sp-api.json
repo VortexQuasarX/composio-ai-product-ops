@@ -80,7 +80,7 @@
         "Partner-gated"
       ],
       "excerpt": "Calls to the Selling Partner API must be authenticated using Login with Amazon (LWA) access tokens and signed with AWS Signature Version 4.",
-      "retrieved_at": "2026-09-16T13:37:43.942292Z"
+      "retrieved_at": "2026-09-16T13:44:40.151119Z"
     }
   ],
   "confidence": {
@@ -104,7 +104,7 @@
     "notes": "Verified by independent audit against official source: Requires Amazon Professional Seller plan ($39.99/mo) and formal developer profile vetting."
   },
   "metadata": {
-    "researched_at": "2026-09-16T13:37:43.942292Z",
+    "researched_at": "2026-09-16T13:44:40.151119Z",
     "researcher_model": "gemini-3.8-flash-agent",
     "verification_pass": 2
   }
