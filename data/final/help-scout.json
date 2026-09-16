@@ -1,0 +1,101 @@
+{
+  "id": "help-scout",
+  "app_name": "Help Scout",
+  "category": "SUPPORT AND HELPDESK",
+  "website": "https://helpscout.com",
+  "one_line_description": "Customer service software platform focused on personalized email and chat support.",
+  "authentication": {
+    "methods": [
+      "OAuth2"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Client Credentials or Authorization Code flow"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": false,
+    "trial_available": true,
+    "paid_plan_required": true,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve trial",
+    "notes": "15-day free trial provides self-serve OAuth app creation in developer settings."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Broad",
+    "major_resource_areas": [
+      "Mailboxes",
+      "Conversations",
+      "Customers",
+      "Tags",
+      "Users",
+      "Workflows",
+      "Reports"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/helpscout",
+    "notes": "Composio supports Help Scout; community MCP connectors exist."
+  },
+  "buildability": {
+    "verdict": "Needs paid access",
+    "blocker": "Active paid subscription required for developer credentials/API access",
+    "rationale": "Free tier does not provide developer API keys or webhooks access; commercial subscription is required."
+  },
+  "evidence": [
+    {
+      "url": "https://developer.helpscout.com/mailbox-api/",
+      "title": "Help Scout Mailbox API 2.0",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "OAuth2",
+        "API availability"
+      ],
+      "excerpt": "Help Scout Mailbox API 2.0 uses OAuth 2.0 to authenticate requests. Both authorization code and client credentials flows are supported.",
+      "retrieved_at": "2026-09-16T13:37:43.916623Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.59,
+    "auth": 0.6,
+    "credential_access": 0.5,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.916623Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

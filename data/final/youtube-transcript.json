@@ -1,0 +1,98 @@
+{
+  "id": "youtube-transcript",
+  "app_name": "YouTube Transcript / TranscriptAPI",
+  "category": "AI, RESEARCH AND MEDIA-NATIVE",
+  "website": "https://developers.google.com/youtube/v3/docs/captions",
+  "one_line_description": "Programmatic video subtitle and closed caption extraction via official YouTube Data API v3 and scraping libraries.",
+  "authentication": {
+    "methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Official YouTube Data API v3 requires OAuth 2.0 or API key; python youtube-transcript-api library accesses public timed text"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Google Cloud Console provides free self-serve API keys for YouTube Data API v3 (10,000 daily quota units free); downloading third-party transcripts officially requires video owner OAuth authorization."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": true,
+    "breadth": "Narrow",
+    "major_resource_areas": [
+      "Captions (List/Download)",
+      "Videos",
+      "Timed Text Formats"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/youtube",
+    "notes": "Composio provides YouTube action tools (including transcripts); community MCP servers available."
+  },
+  "buildability": {
+    "verdict": "Ready with access caveat",
+    "blocker": "Quota limits and OAuth scope requirements for official Captions API",
+    "rationale": "Official YouTube Data API v3 supports captions download for owned videos; third-party scraping libraries are unofficial."
+  },
+  "evidence": [
+    {
+      "url": "https://developers.google.com/youtube/v3/docs/captions",
+      "title": "YouTube Data API v3 Captions Reference",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "OAuth2",
+        "API Key"
+      ],
+      "excerpt": "A caption resource represents a YouTube caption track. The API supports downloading caption tracks via HTTP requests authorized with OAuth 2.0.",
+      "retrieved_at": "2026-09-16T13:37:43.985618Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.59,
+    "auth": 0.6,
+    "credential_access": 0.5,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.985618Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

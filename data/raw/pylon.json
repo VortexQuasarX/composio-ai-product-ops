@@ -1,0 +1,100 @@
+{
+  "id": "pylon",
+  "app_name": "Pylon",
+  "category": "SUPPORT AND HELPDESK",
+  "website": "https://usepylon.com",
+  "one_line_description": "B2B support platform built to manage customer issues across Slack, Teams, email, and ticketing.",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_method": "Bearer Token",
+    "oauth2": false,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": null
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": true,
+    "paid_plan_required": true,
+    "admin_approval_required": true,
+    "contact_sales_required": true,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Contact-sales gated",
+    "notes": "Targeted at B2B high-touch customer support; onboarding typically requires contacting sales or booking a demo."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Moderate",
+    "major_resource_areas": [
+      "Issues",
+      "Accounts",
+      "Contacts",
+      "Messages",
+      "Webhooks"
+    ]
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No MCP server found; not supported in Composio."
+  },
+  "buildability": {
+    "verdict": "Needs partnership/contact-sales",
+    "blocker": "Enterprise sales or formal partnership contract required to obtain API keys",
+    "rationale": "Developers cannot self-provision credentials; contractual approval from sales/BD is mandatory."
+  },
+  "evidence": [
+    {
+      "url": "https://docs.usepylon.com/",
+      "title": "Pylon Documentation",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Bearer Token",
+        "API availability"
+      ],
+      "excerpt": "Pylon developer API enables programmatic creation and synchronization of customer support issues and accounts via Bearer tokens.",
+      "retrieved_at": "2026-09-16T13:37:43.914505Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.58,
+    "auth": 0.55,
+    "credential_access": 0.5,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.914505Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "salesforce",
+  "app_name": "Salesforce",
+  "category": "CRM AND SALES",
+  "website": "https://developer.salesforce.com",
+  "one_line_description": "Enterprise cloud CRM platform for sales, customer relationship operations, and automated workflows.",
+  "authentication": {
+    "methods": [
+      "OAuth2",
+      "Bearer Token",
+      "Session/Cookie"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Connected Apps JWT Bearer Flow"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": true,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Free Developer Edition orgs are self-serve without credit card; production orgs require tenant admin approval."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SOAP",
+      "GraphQL",
+      "SDK",
+      "CLI"
+    ],
+    "rest": true,
+    "graphql": true,
+    "sdk": true,
+    "cli": true,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "SObjects",
+      "Leads",
+      "Opportunities",
+      "Accounts",
+      "Contacts",
+      "Metadata",
+      "Bulk API"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "notes": "Composio provides production Salesforce toolkit; community MCP server implementations exist."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "Workspace administrator approval or enterprise tenant permission required",
+    "rationale": "End-users cannot provision integrations directly; tenant admin consent or security review is mandatory."
+  },
+  "evidence": [
+    {
+      "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm",
+      "title": "Salesforce REST API Developer Guide",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "OAuth2",
+        "API availability"
+      ],
+      "excerpt": "Salesforce REST API provides a powerful, convenient, and simple Web services API for interacting with Lightning Platform. It supports OAuth 2.0 authentication and standard HTTP methods.",
+      "retrieved_at": "2026-09-16T13:37:43.904229Z"
+    },
+    {
+      "url": "https://developer.salesforce.com/signup",
+      "title": "Salesforce Developer Edition Signup",
+      "source_type": "official_dev_portal",
+      "supports": [
+        "Self-serve free",
+        "Developer account"
+      ],
+      "excerpt": "Sign up for a free, full-featured Developer Edition of Salesforce to build, test, and package applications without expiring.",
+      "retrieved_at": "2026-09-16T13:37:43.904229Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.7,
+    "auth": 0.7,
+    "credential_access": 0.7,
+    "api": 0.7,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "modified",
+    "verified_claims": [
+      "Primary Auth: OAuth2",
+      "Access Classification: Self-serve free",
+      "API Exists: True",
+      "MCP Classification (Official vs Vendor vs Community)"
+    ],
+    "failed_claims": [
+      "Buildability mismatch: expected Ready, got Needs admin approval"
+    ],
+    "notes": "Resolved during independent verification pass: corrected buildability. Ground truth source: Free Developer Edition is self-serve; corporate orgs require admin approval."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.904752Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 2
+  }
+}

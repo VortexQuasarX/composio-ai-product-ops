@@ -1,0 +1,88 @@
+{
+  "id": "notebooklm",
+  "app_name": "NotebookLM",
+  "category": "AI, RESEARCH AND MEDIA-NATIVE",
+  "website": "https://notebooklm.google.com",
+  "one_line_description": "Personalized AI research assistant and source-grounded notebook powered by Google Gemini.",
+  "authentication": {
+    "methods": [
+      "Unknown"
+    ],
+    "primary_method": "Unknown",
+    "oauth2": false,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": false,
+    "personal_access_token": false,
+    "other": "No public developer API available; consumer web application only"
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": false,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": false,
+    "access_classification": "No developer access found",
+    "notes": "Google NotebookLM currently exists as a standalone web interface without an official public developer API or programmatic SDK."
+  },
+  "api": {
+    "exists": false,
+    "public": false,
+    "type": [],
+    "rest": false,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": false,
+    "breadth": "Unknown",
+    "major_resource_areas": []
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No official or vendor MCP server exists; not in Composio catalog."
+  },
+  "buildability": {
+    "verdict": "No practical public API",
+    "blocker": "No public developer API or documentation available",
+    "rationale": "The platform does not expose documented programmatic interfaces for external agent tools."
+  },
+  "evidence": [
+    {
+      "url": "https://notebooklm.google.com",
+      "title": "Google NotebookLM Home",
+      "source_type": "official_docs",
+      "supports": [
+        "No developer access found"
+      ],
+      "excerpt": "NotebookLM is an experimental web application developed by Google Labs. It offers no public API endpoints for third-party developer integrations.",
+      "retrieved_at": "2026-09-16T13:37:43.979241Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.979241Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

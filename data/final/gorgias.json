@@ -1,0 +1,103 @@
+{
+  "id": "gorgias",
+  "app_name": "Gorgias",
+  "category": "SUPPORT AND HELPDESK",
+  "website": "https://gorgias.com",
+  "one_line_description": "E-commerce-focused customer support platform with direct Shopify, BigCommerce, and Magento integrations.",
+  "authentication": {
+    "methods": [
+      "Basic Auth",
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_method": "Basic Auth",
+    "oauth2": true,
+    "api_key": true,
+    "basic_auth": true,
+    "bearer_token": false,
+    "personal_access_token": false,
+    "other": "HTTP Basic Auth using email:api_key"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": false,
+    "trial_available": true,
+    "paid_plan_required": true,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve trial",
+    "notes": "7-day free trial allows self-serve generation of API keys in Settings > REST API."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Broad",
+    "major_resource_areas": [
+      "Tickets",
+      "Customers",
+      "Messages",
+      "Macros",
+      "Rules",
+      "Integrations",
+      "Satisfaction Surveys"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/gorgias",
+    "notes": "Composio supports Gorgias; community MCP integrations exist."
+  },
+  "buildability": {
+    "verdict": "Needs paid access",
+    "blocker": "Active paid subscription required for developer credentials/API access",
+    "rationale": "Free tier does not provide developer API keys or webhooks access; commercial subscription is required."
+  },
+  "evidence": [
+    {
+      "url": "https://developers.gorgias.com/reference/introduction",
+      "title": "Gorgias API Reference",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Basic Auth",
+        "API Key"
+      ],
+      "excerpt": "The Gorgias REST API uses HTTP Basic authentication. Your username is your account email address and your password is your API key.",
+      "retrieved_at": "2026-09-16T13:37:43.917149Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.59,
+    "auth": 0.6,
+    "credential_access": 0.5,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.917149Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "otter-ai",
+  "app_name": "Otter AI",
+  "category": "AI, RESEARCH AND MEDIA-NATIVE",
+  "website": "https://otter.ai",
+  "one_line_description": "AI transcription and meeting summary tool for virtual meetings and live audio recording.",
+  "authentication": {
+    "methods": [
+      "Unknown"
+    ],
+    "primary_method": "Unknown",
+    "oauth2": false,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": false,
+    "personal_access_token": false,
+    "other": "No self-serve developer API; enterprise partnership inquiry only"
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": false,
+    "paid_plan_required": true,
+    "admin_approval_required": true,
+    "contact_sales_required": true,
+    "partnership_required": true,
+    "developer_account_required": true,
+    "access_classification": "Partner-gated",
+    "notes": "Otter.ai does not offer a public self-serve developer API; integration requests require direct enterprise partnership contracts."
+  },
+  "api": {
+    "exists": false,
+    "public": false,
+    "type": [],
+    "rest": false,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": false,
+    "breadth": "Narrow",
+    "major_resource_areas": []
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No official MCP server found; not supported by Composio."
+  },
+  "buildability": {
+    "verdict": "No practical public API",
+    "blocker": "No public developer API or documentation available",
+    "rationale": "The platform does not expose documented programmatic interfaces for external agent tools."
+  },
+  "evidence": [
+    {
+      "url": "https://otter.ai",
+      "title": "Otter.ai Platform",
+      "source_type": "official_pricing",
+      "supports": [
+        "Partner-gated",
+        "No developer access found"
+      ],
+      "excerpt": "Otter.ai provides automated meeting summaries and live transcription. No public developer API documentation or self-serve developer credentials exist.",
+      "retrieved_at": "2026-09-16T13:37:43.979241Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.979241Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

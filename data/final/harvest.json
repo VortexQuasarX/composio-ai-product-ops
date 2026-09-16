@@ -1,0 +1,103 @@
+{
+  "id": "harvest",
+  "app_name": "Harvest",
+  "category": "PRODUCTIVITY AND PROJECT MANAGEMENT",
+  "website": "https://help.getharvest.com/api-v2",
+  "one_line_description": "Time tracking, invoicing, and team expense monitoring software for professional services.",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "Personal Access Token",
+      "OAuth2"
+    ],
+    "primary_method": "Bearer Token",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": true,
+    "other": "Authorization: Bearer <PAT> + Harvest-Account-Id header"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Developers can create free developer accounts at id.getharvest.com/developers to generate Personal Access Tokens."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Moderate",
+    "major_resource_areas": [
+      "Time Entries",
+      "Clients",
+      "Projects",
+      "Tasks",
+      "Invoices",
+      "Expenses",
+      "Users"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/harvest",
+    "notes": "Composio supports Harvest; community MCP servers available on GitHub."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://help.getharvest.com/api-v2/authentication-api/overview/authentication/",
+      "title": "Harvest API v2 Authentication",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Bearer Token",
+        "Personal Access Token"
+      ],
+      "excerpt": "Harvest API v2 supports two authentication methods: Personal Access Tokens and OAuth 2.0. Both methods require sending the token in an Authorization Bearer header.",
+      "retrieved_at": "2026-09-16T13:37:43.969644Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.970153Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

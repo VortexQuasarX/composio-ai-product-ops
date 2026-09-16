@@ -1,0 +1,96 @@
+{
+  "id": "ipayx",
+  "app_name": "iPayX",
+  "category": "FINANCE AND FINTECH",
+  "website": "https://ipayx.com",
+  "one_line_description": "Enterprise electronic bill presentment and payment (EBPP) processing platform for healthcare and municipalities.",
+  "authentication": {
+    "methods": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "primary_method": "API Key",
+    "oauth2": false,
+    "api_key": true,
+    "basic_auth": true,
+    "bearer_token": false,
+    "personal_access_token": false,
+    "other": "Proprietary merchant token credentials"
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": false,
+    "paid_plan_required": true,
+    "admin_approval_required": true,
+    "contact_sales_required": true,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Contact-sales gated",
+    "notes": "Specialized municipal and healthcare bill pay portal; developer onboarding is handled strictly through enterprise sales engagement."
+  },
+  "api": {
+    "exists": true,
+    "public": false,
+    "type": [
+      "REST"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": false,
+    "breadth": "Narrow",
+    "major_resource_areas": [
+      "Bill Presentment",
+      "Payment Processing",
+      "Reconciliation"
+    ]
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No MCP server found; not supported by Composio."
+  },
+  "buildability": {
+    "verdict": "No practical public API",
+    "blocker": "No public developer API or documentation available",
+    "rationale": "The platform does not expose documented programmatic interfaces for external agent tools."
+  },
+  "evidence": [
+    {
+      "url": "https://ipayx.com",
+      "title": "iPayX Enterprise Billing",
+      "source_type": "official_pricing",
+      "supports": [
+        "Contact-sales gated",
+        "Paid plan required"
+      ],
+      "excerpt": "iPayX provides electronic payment processing tailored for institutions and government entities. Access is negotiated via corporate sales agreements.",
+      "retrieved_at": "2026-09-16T13:37:43.973671Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.973671Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

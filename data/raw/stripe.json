@@ -1,0 +1,116 @@
+{
+  "id": "stripe",
+  "app_name": "Stripe",
+  "category": "FINANCE AND FINTECH",
+  "website": "https://stripe.com/docs/api",
+  "one_line_description": "Global financial infrastructure platform providing payment processing, billing, and payouts APIs.",
+  "authentication": {
+    "methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "primary_method": "API Key",
+    "oauth2": true,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Secret API Keys (sk_test_...) or Restricted API Keys (rk_test_...)"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Instant self-serve signup; test mode keys require no KYC or bank account and are 100% free to use."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK",
+      "CLI",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": true,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "Payment Intents",
+      "Charges",
+      "Customers",
+      "Subscriptions (Billing)",
+      "Invoices",
+      "Refunds",
+      "Payouts",
+      "Connect"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/stripe",
+    "notes": "Composio provides extensive Stripe toolkit; community MCP server implementations exist on GitHub."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://stripe.com/docs/api/authentication",
+      "title": "Stripe API Authentication",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "API Key",
+        "Bearer Token"
+      ],
+      "excerpt": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard. Authenticate via Bearer tokens.",
+      "retrieved_at": "2026-09-16T13:37:43.970153Z"
+    },
+    {
+      "url": "https://dashboard.stripe.com/register",
+      "title": "Stripe Developer Signup",
+      "source_type": "official_dev_portal",
+      "supports": [
+        "Self-serve free",
+        "Developer account"
+      ],
+      "excerpt": "Create a free Stripe account to immediately access the developer sandbox and generate test API keys.",
+      "retrieved_at": "2026-09-16T13:37:43.971163Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.7,
+    "auth": 0.7,
+    "credential_access": 0.7,
+    "api": 0.7,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.971163Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "podio",
+  "app_name": "Podio",
+  "category": "CRM AND SALES",
+  "website": "https://podio.com",
+  "one_line_description": "Customizable workspace and work management CRM platform by Citrix.",
+  "authentication": {
+    "methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": false,
+    "personal_access_token": false,
+    "other": "Server-side and App authentication"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Free tier for up to 5 employees includes developer API key creation."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Moderate",
+    "major_resource_areas": [
+      "Items",
+      "Apps",
+      "Workspaces",
+      "Tasks",
+      "Comments",
+      "Files"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://developer.podio.com",
+    "notes": "Composio supports Podio; community MCP implementations exist."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://developer.podio.com/",
+      "title": "Podio API Developer Overview",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "OAuth2",
+        "API availability"
+      ],
+      "excerpt": "The Podio API allows third-party developers to access items, apps, and workspaces using OAuth 2.0 authentication.",
+      "retrieved_at": "2026-09-16T13:37:43.907998Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.59,
+    "auth": 0.6,
+    "credential_access": 0.5,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.907998Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

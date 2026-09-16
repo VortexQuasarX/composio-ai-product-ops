@@ -1,0 +1,112 @@
+{
+  "id": "dealcloud",
+  "app_name": "DealCloud",
+  "category": "CRM AND SALES",
+  "website": "https://api.docs.dealcloud.com",
+  "one_line_description": "Financial services and private capital CRM platform by Intapp for dealmaking and compliance.",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_method": "Bearer Token",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Intapp OnePlace API Key"
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": false,
+    "paid_plan_required": true,
+    "admin_approval_required": true,
+    "contact_sales_required": true,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Contact-sales gated",
+    "notes": "Enterprise financial CRM with strictly gated sales access; no self-serve developer registration available."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Broad",
+    "major_resource_areas": [
+      "Deals",
+      "Intermediaries",
+      "Contacts",
+      "Companies",
+      "Pipelines",
+      "Audit Logs"
+    ]
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No MCP server found; not supported by Composio."
+  },
+  "buildability": {
+    "verdict": "Needs partnership/contact-sales",
+    "blocker": "Enterprise sales or formal partnership contract required to obtain API keys",
+    "rationale": "Developers cannot self-provision credentials; contractual approval from sales/BD is mandatory."
+  },
+  "evidence": [
+    {
+      "url": "https://api.docs.dealcloud.com/",
+      "title": "DealCloud API Documentation",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Bearer Token",
+        "API availability"
+      ],
+      "excerpt": "DealCloud API provides programmatic access to enterprise deal data, requiring authorized Bearer token authentication issued to licensed client tenants.",
+      "retrieved_at": "2026-09-16T13:37:43.910759Z"
+    },
+    {
+      "url": "https://www.intapp.com/dealcloud/",
+      "title": "Intapp DealCloud Enterprise Platform",
+      "source_type": "official_pricing",
+      "supports": [
+        "Contact-sales gated",
+        "Paid plan required"
+      ],
+      "excerpt": "Intapp DealCloud is an enterprise solution tailored for investment banking, private equity, and advisory firms available via institutional sales consultation.",
+      "retrieved_at": "2026-09-16T13:37:43.910759Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.66,
+    "auth": 0.55,
+    "credential_access": 0.7,
+    "api": 0.7,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.910759Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

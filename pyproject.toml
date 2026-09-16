@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "composio-ai-product-ops"
+version = "1.0.0"
+description = "Autonomous research and verification pipeline mapping agent toolkit readiness across 100 applications"
+readme = "README.md"
+authors = [
+    { name = "Composio AI Product Ops Candidate" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "rich>=13.7.0",
+    "tqdm>=4.66.0",
+    "python-dotenv>=1.0.0",
+    "jinja2>=3.1.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0"
+]

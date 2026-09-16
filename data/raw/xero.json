@@ -1,0 +1,103 @@
+{
+  "id": "xero",
+  "app_name": "Xero",
+  "category": "FINANCE AND FINTECH",
+  "website": "https://developer.xero.com",
+  "one_line_description": "Cloud-based small business accounting software for invoicing, bank reconciliation, and bookkeeping.",
+  "authentication": {
+    "methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "OAuth 2.0 with PKCE or standard authorization code flow"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Xero Developer Portal is free to use and provides a free Demo Company sandbox for API development."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "Invoices",
+      "Contacts",
+      "Bank Transactions",
+      "Accounts",
+      "Payments",
+      "Manual Journals",
+      "Reports"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/xero",
+    "notes": "Composio provides Xero toolkit; community MCP server available."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://developer.xero.com/documentation/guides/oauth2/overview/",
+      "title": "Xero OAuth 2.0 API Guide",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "OAuth2",
+        "Bearer Token"
+      ],
+      "excerpt": "Xero APIs use OAuth 2.0 for user authentication and authorization. Access tokens must be passed in the HTTP Authorization header as a Bearer token.",
+      "retrieved_at": "2026-09-16T13:37:43.975177Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.59,
+    "auth": 0.6,
+    "credential_access": 0.5,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.975177Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

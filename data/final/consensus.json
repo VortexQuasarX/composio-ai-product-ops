@@ -1,0 +1,99 @@
+{
+  "id": "consensus",
+  "app_name": "Consensus",
+  "category": "AI, RESEARCH AND MEDIA-NATIVE",
+  "website": "https://consensus.app",
+  "one_line_description": "AI-powered academic search engine finding claims and insights in scientific research papers.",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_method": "API Key",
+    "oauth2": false,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Authorization: Bearer <API_KEY>"
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": false,
+    "paid_plan_required": true,
+    "admin_approval_required": false,
+    "contact_sales_required": true,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Contact-sales gated",
+    "notes": "Consensus Academic Search API is provided for institutional and enterprise AI builders via commercial inquiry and paid credits."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": true,
+    "breadth": "Moderate",
+    "major_resource_areas": [
+      "Search",
+      "Claims",
+      "Papers",
+      "Yearly Filters",
+      "Study Types"
+    ]
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No MCP server found; not supported by Composio."
+  },
+  "buildability": {
+    "verdict": "Needs partnership/contact-sales",
+    "blocker": "Enterprise sales or formal partnership contract required to obtain API keys",
+    "rationale": "Developers cannot self-provision credentials; contractual approval from sales/BD is mandatory."
+  },
+  "evidence": [
+    {
+      "url": "https://consensus.app/home/blog/api/",
+      "title": "Consensus Search API Announcement",
+      "source_type": "official_pricing",
+      "supports": [
+        "REST API",
+        "Contact-sales gated",
+        "Paid plan required"
+      ],
+      "excerpt": "Consensus provides access to over 200 million research papers via REST API for enterprise AI agents, available through customized commercial access tiers.",
+      "retrieved_at": "2026-09-16T13:37:43.981098Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.981098Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

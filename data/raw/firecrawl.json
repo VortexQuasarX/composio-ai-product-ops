@@ -1,0 +1,101 @@
+{
+  "id": "firecrawl",
+  "app_name": "Firecrawl",
+  "category": "DATA, SEO AND SCRAPING",
+  "website": "https://firecrawl.dev",
+  "one_line_description": "API service that crawls websites and converts them into clean, LLM-ready markdown or structured data.",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_method": "Bearer Token",
+    "oauth2": false,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Authorization: Bearer <fc-...>"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Free plan includes 500 scrape credits with instant self-serve API key creation upon signup."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": false,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Moderate",
+    "major_resource_areas": [
+      "Scrape",
+      "Crawl",
+      "Map",
+      "Extract",
+      "Batch Scrape",
+      "Webhooks"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": true,
+    "community": true,
+    "composio_support": true,
+    "url": "https://github.com/mendableai/firecrawl-mcp-server",
+    "notes": "Vendor-supported MCP server created and maintained by the Firecrawl team; Composio provides Firecrawl toolkit."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://docs.firecrawl.dev/api-reference/introduction",
+      "title": "Firecrawl API Reference",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Bearer Token",
+        "Self-serve free"
+      ],
+      "excerpt": "Firecrawl API provides endpoints to turn any website into clean markdown. Authenticate with your Firecrawl API key sent as a Bearer token.",
+      "retrieved_at": "2026-09-16T13:37:43.946836Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.947919Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

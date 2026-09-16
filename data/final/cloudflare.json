@@ -1,0 +1,103 @@
+{
+  "id": "cloudflare",
+  "app_name": "Cloudflare",
+  "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+  "website": "https://developers.cloudflare.com/api",
+  "one_line_description": "Global cloud network platform providing content delivery, DNS, DDoS protection, and edge compute (Workers).",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_method": "Bearer Token",
+    "oauth2": false,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Scoped API Tokens (Bearer) or Global API Key + X-Auth-Email headers"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Free account enables creating fine-grained scoped API tokens in dashboard under My Profile > API Tokens."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK",
+      "CLI"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": true,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "DNS Records",
+      "Zones",
+      "Workers & Pages",
+      "KV / D1 / R2 Storage",
+      "Firewall Rules",
+      "SSL/TLS",
+      "Analytics"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": true,
+    "community": true,
+    "composio_support": true,
+    "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+    "notes": "Official vendor-supported MCP server released by Cloudflare team; Composio provides Cloudflare toolkit."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://developers.cloudflare.com/fundamentals/api/get-started/",
+      "title": "Cloudflare API Fundamentals",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Bearer Token",
+        "Self-serve free"
+      ],
+      "excerpt": "The Cloudflare API is a RESTful API. To interact with Cloudflare resources, create a scoped API token in the dashboard and pass it as an HTTP Bearer header.",
+      "retrieved_at": "2026-09-16T13:37:43.955225Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.955225Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

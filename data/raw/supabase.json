@@ -1,0 +1,117 @@
+{
+  "id": "supabase",
+  "app_name": "Supabase",
+  "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+  "website": "https://supabase.com/docs",
+  "one_line_description": "Open-source Firebase alternative offering Postgres database, authentication, instant REST/GraphQL APIs, and realtime subscriptions.",
+  "authentication": {
+    "methods": [
+      "API Key",
+      "Bearer Token",
+      "Personal Access Token",
+      "JWT"
+    ],
+    "primary_method": "API Key",
+    "oauth2": true,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": true,
+    "other": "Anon/Service_role API keys + Management Personal Access Tokens"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Generous free tier includes 2 active Postgres projects, instant API keys, and access to Supabase Management API."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "GraphQL",
+      "SDK",
+      "CLI"
+    ],
+    "rest": true,
+    "graphql": true,
+    "sdk": true,
+    "cli": true,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "Database (PostgreSQL)",
+      "Auth (GoTrue)",
+      "Storage",
+      "Edge Functions",
+      "Realtime",
+      "Management API",
+      "pg_graphql"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": true,
+    "community": true,
+    "composio_support": true,
+    "url": "https://github.com/supabase/mcp-server-supabase",
+    "notes": "Vendor-supported MCP server created and maintained by the Supabase team; Composio provides Supabase toolkit."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://supabase.com/docs/guides/api",
+      "title": "Supabase Auto-Generated APIs",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "GraphQL",
+        "API Key"
+      ],
+      "excerpt": "Supabase automatically generates RESTful APIs via PostgREST and GraphQL endpoints via pg_graphql directly from your PostgreSQL schema.",
+      "retrieved_at": "2026-09-16T13:37:43.956236Z"
+    },
+    {
+      "url": "https://supabase.com/docs/reference/api/introduction",
+      "title": "Supabase Management API Reference",
+      "source_type": "official_docs",
+      "supports": [
+        "Personal Access Token",
+        "Self-serve free"
+      ],
+      "excerpt": "The Management API enables programmatic creation of Supabase projects, databases, and secrets using personal access tokens.",
+      "retrieved_at": "2026-09-16T13:37:43.956236Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.7,
+    "auth": 0.7,
+    "credential_access": 0.7,
+    "api": 0.7,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.956236Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "hubspot",
+  "app_name": "HubSpot",
+  "category": "CRM AND SALES",
+  "website": "https://developers.hubspot.com",
+  "one_line_description": "Inbound marketing, customer relationship management, and sales pipeline software suite.",
+  "authentication": {
+    "methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Private App Access Tokens (Bearer)"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Free HubSpot Developer Accounts allow self-serve creation of test accounts, OAuth apps, and Private App tokens."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK",
+      "CLI",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": true,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "CRM Objects",
+      "Contacts",
+      "Companies",
+      "Deals",
+      "Tickets",
+      "Engagements",
+      "Workflows"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/hubspot",
+    "notes": "Composio provides comprehensive HubSpot toolkit; community MCP servers available."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://developers.hubspot.com/docs/api/overview",
+      "title": "HubSpot API Overview",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "OAuth2",
+        "API availability"
+      ],
+      "excerpt": "HubSpot's API gives developers full access to CRM records, marketing assets, and platform workflows using standard REST protocols.",
+      "retrieved_at": "2026-09-16T13:37:43.905277Z"
+    },
+    {
+      "url": "https://developers.hubspot.com/docs/api/private-apps",
+      "title": "HubSpot Private Apps Documentation",
+      "source_type": "official_auth_docs",
+      "supports": [
+        "Bearer Token",
+        "Self-serve free"
+      ],
+      "excerpt": "Private apps allow developers to generate custom access tokens to authenticate API calls without public app marketplace review.",
+      "retrieved_at": "2026-09-16T13:37:43.905277Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.7,
+    "auth": 0.7,
+    "credential_access": 0.7,
+    "api": 0.7,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.905277Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

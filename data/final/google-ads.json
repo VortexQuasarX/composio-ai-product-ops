@@ -1,0 +1,110 @@
+{
+  "id": "google-ads",
+  "app_name": "Google Ads",
+  "category": "MARKETING, ADS, EMAIL AND SOCIAL",
+  "website": "https://developers.google.com/google-ads",
+  "one_line_description": "Online advertising platform by Google for search, display, shopping, and video campaigns.",
+  "authentication": {
+    "methods": [
+      "OAuth2"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Developer Token header required in addition to OAuth2 token"
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": true,
+    "contact_sales_required": false,
+    "partnership_required": true,
+    "developer_account_required": true,
+    "access_classification": "Admin-gated",
+    "notes": "Test accounts can be accessed freely with a test developer token; Basic and Standard Access require Google developer review and approval."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "gRPC",
+      "SDK"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "Campaigns",
+      "Ad Groups",
+      "Ads",
+      "Keywords",
+      "Bidding Strategies",
+      "Reporting",
+      "Audiences"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/google-ads",
+    "notes": "Composio provides Google Ads toolkit; community MCP implementations exist."
+  },
+  "buildability": {
+    "verdict": "Needs admin approval",
+    "blocker": "Enterprise sales or formal partnership contract required to obtain API keys",
+    "rationale": "Developers cannot self-provision credentials; contractual approval from sales/BD is mandatory."
+  },
+  "evidence": [
+    {
+      "url": "https://developers.google.com/google-ads/api/docs/first-call/overview",
+      "title": "Google Ads API Quickstart",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "OAuth2",
+        "Admin-gated"
+      ],
+      "excerpt": "To make calls to the Google Ads API, you need OAuth 2.0 credentials and an approved developer token linked to a manager account.",
+      "retrieved_at": "2026-09-16T13:37:43.928435Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.59,
+    "auth": 0.6,
+    "credential_access": 0.5,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "modified",
+    "verified_claims": [
+      "Primary Auth: OAuth2",
+      "Access Classification: Admin-gated",
+      "API Exists: True",
+      "CLI Tool status: False",
+      "MCP Classification (Official vs Vendor vs Community)"
+    ],
+    "failed_claims": [
+      "Buildability mismatch: expected Needs admin approval, got Needs partnership/contact-sales"
+    ],
+    "notes": "Resolved during independent verification pass: corrected buildability. Ground truth source: Requires Developer Token approval from Google in addition to OAuth2."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.928435Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 2
+  }
+}

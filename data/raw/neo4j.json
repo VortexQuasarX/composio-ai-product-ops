@@ -1,0 +1,101 @@
+{
+  "id": "neo4j",
+  "app_name": "Neo4j",
+  "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+  "website": "https://neo4j.com/docs/api",
+  "one_line_description": "Graph database platform built to store, manage, and query connected relationships and graph structures.",
+  "authentication": {
+    "methods": [
+      "Basic Auth",
+      "Bearer Token"
+    ],
+    "primary_method": "Basic Auth",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": true,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Cypher Bolt protocol credentials (username/password) or Aura API Client ID/Secret"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": false,
+    "access_classification": "Self-serve free",
+    "notes": "Neo4j AuraDB Free tier provides an instant free cloud graph database instance; Neo4j Community is open source and self-hostable."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK",
+      "CLI"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": true,
+    "webhooks": false,
+    "documentation_available": true,
+    "breadth": "Broad",
+    "major_resource_areas": [
+      "Cypher Query Execution",
+      "Transactions",
+      "Aura Management API",
+      "Schema & Indexes",
+      "Graph Data Science"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": true,
+    "community": true,
+    "composio_support": true,
+    "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+    "notes": "Vendor-supported MCP server created by Neo4j team; Composio provides Neo4j toolkit."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://neo4j.com/docs/http-api/current/",
+      "title": "Neo4j HTTP API Documentation",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Basic Auth",
+        "Self-serve free"
+      ],
+      "excerpt": "The Neo4j HTTP API executes Cypher statements over HTTP transactions, authenticated via HTTP Basic credentials.",
+      "retrieved_at": "2026-09-16T13:37:43.957235Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.62,
+    "auth": 0.6,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.957235Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

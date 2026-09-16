@@ -1,0 +1,115 @@
+{
+  "id": "slack",
+  "app_name": "Slack",
+  "category": "COMMUNICATIONS AND MESSAGING",
+  "website": "https://api.slack.com",
+  "one_line_description": "Cloud-based team messaging and workplace collaboration platform with extensive app integrations.",
+  "authentication": {
+    "methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_method": "OAuth2",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Bot Token (xoxb-) and User Token (xoxp-)"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Creating Slack apps and bot tokens via api.slack.com is completely free and self-serve."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "SDK",
+      "Webhooks",
+      "CLI"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": true,
+    "cli": true,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Very broad",
+    "major_resource_areas": [
+      "Chat (Messages)",
+      "Conversations (Channels)",
+      "Users",
+      "Files",
+      "Reactions",
+      "Views (Modals)",
+      "Workflows"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": true,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "notes": "Official reference MCP server maintained by Model Context Protocol core; Composio provides Slack toolkit."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://api.slack.com/web",
+      "title": "Slack Web API Overview",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "excerpt": "The Slack Web API allows apps to interact with Slack workspaces using standard HTTP methods and JSON responses authenticated via Bearer tokens.",
+      "retrieved_at": "2026-09-16T13:37:43.918837Z"
+    },
+    {
+      "url": "https://api.slack.com/apps",
+      "title": "Slack Your Apps Management Portal",
+      "source_type": "official_dev_portal",
+      "supports": [
+        "Self-serve free",
+        "Developer account"
+      ],
+      "excerpt": "Anyone with a Slack account can create an app for free, configure bot scopes, and install it to development workspaces.",
+      "retrieved_at": "2026-09-16T13:37:43.918837Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.7,
+    "auth": 0.7,
+    "credential_access": 0.7,
+    "api": 0.7,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.918837Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

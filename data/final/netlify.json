@@ -1,0 +1,104 @@
+{
+  "id": "netlify",
+  "app_name": "Netlify",
+  "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+  "website": "https://docs.netlify.com/api",
+  "one_line_description": "Web hosting and cloud computing platform for modern web applications and Jamstack architecture.",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "Personal Access Token",
+      "OAuth2"
+    ],
+    "primary_method": "Personal Access Token",
+    "oauth2": true,
+    "api_key": false,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": true,
+    "other": "Authorization: Bearer <PAT>"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": true,
+    "trial_available": true,
+    "paid_plan_required": false,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve free",
+    "notes": "Free Starter tier allows instant generation of Personal Access Tokens in User Settings > Applications."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST",
+      "CLI",
+      "Webhooks"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": true,
+    "webhooks": true,
+    "documentation_available": true,
+    "breadth": "Broad",
+    "major_resource_areas": [
+      "Sites",
+      "Deploys",
+      "Forms",
+      "Functions",
+      "Environment Variables",
+      "DNS Zones",
+      "Hooks"
+    ]
+  },
+  "mcp": {
+    "exists": true,
+    "official": false,
+    "vendor_supported": false,
+    "community": true,
+    "composio_support": true,
+    "url": "https://docs.composio.dev/tools/netlify",
+    "notes": "Composio supports Netlify; community MCP servers available."
+  },
+  "buildability": {
+    "verdict": "Ready",
+    "blocker": "None",
+    "rationale": "Publicly documented API with instant self-serve free developer access and standardized auth."
+  },
+  "evidence": [
+    {
+      "url": "https://docs.netlify.com/api/get-started/",
+      "title": "Netlify API Getting Started",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "Personal Access Token",
+        "Bearer Token"
+      ],
+      "excerpt": "Netlify provides a REST API that lets you manage sites and builds. All requests require authentication using an OAuth token or Personal Access Token.",
+      "retrieved_at": "2026-09-16T13:37:43.953435Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.953435Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

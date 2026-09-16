@@ -1,0 +1,100 @@
+{
+  "id": "pitchbook",
+  "app_name": "PitchBook",
+  "category": "FINANCE AND FINTECH",
+  "website": "https://pitchbook.com",
+  "one_line_description": "Financial market data and research platform providing private equity, venture capital, and M&A intelligence.",
+  "authentication": {
+    "methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_method": "Bearer Token",
+    "oauth2": false,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Enterprise API Key / Direct Data Feed credentials"
+  },
+  "credential_access": {
+    "self_serve": false,
+    "free_access": false,
+    "trial_available": false,
+    "paid_plan_required": true,
+    "admin_approval_required": true,
+    "contact_sales_required": true,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Contact-sales gated",
+    "notes": "Enterprise financial intelligence; API access is an expensive paid enterprise add-on requiring direct sales contracts."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": true,
+    "breadth": "Broad",
+    "major_resource_areas": [
+      "Companies",
+      "Deals",
+      "Investors",
+      "Funds",
+      "People",
+      "Valuations",
+      "Direct Data Feeds"
+    ]
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No MCP server found; not supported by Composio."
+  },
+  "buildability": {
+    "verdict": "Needs partnership/contact-sales",
+    "blocker": "Enterprise sales or formal partnership contract required to obtain API keys",
+    "rationale": "Developers cannot self-provision credentials; contractual approval from sales/BD is mandatory."
+  },
+  "evidence": [
+    {
+      "url": "https://pitchbook.com/products/data/api-and-crm-integration",
+      "title": "PitchBook Direct Data API Overview",
+      "source_type": "official_pricing",
+      "supports": [
+        "Contact-sales gated",
+        "Paid plan required"
+      ],
+      "excerpt": "PitchBook API seamlessly delivers comprehensive capital market data directly into client applications and data warehouses via enterprise licensing.",
+      "retrieved_at": "2026-09-16T13:37:43.978236Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.61,
+    "auth": 0.55,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.978236Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}

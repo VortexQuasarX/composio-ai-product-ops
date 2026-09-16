@@ -1,0 +1,757 @@
+{
+  "experiment_meta": {
+    "sample_size": 20,
+    "pass1_fully_correct": 16,
+    "pass1_partial": 4,
+    "pass1_failed": 0,
+    "pass1_accuracy": 80.0,
+    "pass2_fully_correct": 20,
+    "pass2_partial": 0,
+    "pass2_failed": 0,
+    "pass2_accuracy": 100.0,
+    "claim_level_accuracies": {
+      "auth_accuracy": 100.0,
+      "credential_access_accuracy": 100.0,
+      "api_accuracy": 100.0,
+      "mcp_accuracy": 100.0
+    },
+    "failure_taxonomy": {
+      "Enterprise org admin requirements confused with developer sandbox": 1,
+      "Production admin enablement confused with self-serve trial access": 1,
+      "Developer token review confused with commercial partnership": 1,
+      "Paid commercial subscription confused with self-serve trial onboarding": 1
+    }
+  },
+  "sample_evaluations": [
+    {
+      "id": "salesforce",
+      "app_name": "Salesforce",
+      "category": "CRM AND SALES",
+      "status": "PARTIAL",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)"
+      ],
+      "failed_claims": [
+        "Buildability mismatch: expected Ready, got Needs admin approval"
+      ],
+      "failure_categories": [
+        "Enterprise org admin requirements confused with developer sandbox"
+      ],
+      "corrections": {
+        "buildability": "Ready"
+      },
+      "key_notes": "Free Developer Edition is self-serve; corporate orgs require admin approval."
+    },
+    {
+      "id": "dealcloud",
+      "app_name": "DealCloud",
+      "category": "CRM AND SALES",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Contact-sales gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Requires enterprise SaaS license from Intapp; no self-serve registration."
+    },
+    {
+      "id": "zendesk",
+      "app_name": "Zendesk",
+      "category": "SUPPORT AND HELPDESK",
+      "status": "PARTIAL",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve trial",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)"
+      ],
+      "failed_claims": [
+        "Buildability mismatch: expected Ready with access caveat, got Needs admin approval"
+      ],
+      "failure_categories": [
+        "Production admin enablement confused with self-serve trial access"
+      ],
+      "corrections": {
+        "buildability": "Ready with access caveat"
+      },
+      "key_notes": "14-day trial; supports both OAuth2 and API token (Basic auth email/token:key)."
+    },
+    {
+      "id": "gladly",
+      "app_name": "Gladly",
+      "category": "SUPPORT AND HELPDESK",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Basic Auth",
+        "Access Classification: Contact-sales gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Enterprise customer service platform requiring commercial sales agreement."
+    },
+    {
+      "id": "slack",
+      "app_name": "Slack",
+      "category": "COMMUNICATIONS AND MESSAGING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Official reference MCP server by Anthropic/MCP core; app creation is free."
+    },
+    {
+      "id": "whatsapp-business",
+      "app_name": "WhatsApp Business",
+      "category": "COMMUNICATIONS AND MESSAGING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Admin-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs admin approval"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Requires Meta Business Manager, business verification, and phone number registration."
+    },
+    {
+      "id": "google-ads",
+      "app_name": "Google Ads",
+      "category": "MARKETING, ADS, EMAIL AND SOCIAL",
+      "status": "PARTIAL",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Admin-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)"
+      ],
+      "failed_claims": [
+        "Buildability mismatch: expected Needs admin approval, got Needs partnership/contact-sales"
+      ],
+      "failure_categories": [
+        "Developer token review confused with commercial partnership"
+      ],
+      "corrections": {
+        "buildability": "Needs admin approval"
+      },
+      "key_notes": "Requires Developer Token approval from Google in addition to OAuth2."
+    },
+    {
+      "id": "threads",
+      "app_name": "Threads",
+      "category": "MARKETING, ADS, EMAIL AND SOCIAL",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Public Threads API launched June 2024 via Meta for Developers."
+    },
+    {
+      "id": "shopify",
+      "app_name": "Shopify",
+      "category": "ECOMMERCE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Shopify Partner Program allows creating unlimited free development stores."
+    },
+    {
+      "id": "amazon-sp-api",
+      "app_name": "Amazon Selling Partner API",
+      "category": "ECOMMERCE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: AWS Signature",
+        "Access Classification: Partner-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Requires Amazon Professional Seller plan ($39.99/mo) and formal developer profile vetting."
+    },
+    {
+      "id": "sherlock",
+      "app_name": "Sherlock",
+      "category": "DATA, SEO AND SCRAPING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Unknown",
+        "Access Classification: Self-serve free",
+        "API Exists: False",
+        "CLI Tool status: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: CLI/local tool"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Open-source Python CLI script; no hosted cloud API."
+    },
+    {
+      "id": "firecrawl",
+      "app_name": "Firecrawl",
+      "category": "DATA, SEO AND SCRAPING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Vendor-supported MCP server by Firecrawl team (mendableai/firecrawl-mcp-server)."
+    },
+    {
+      "id": "github",
+      "app_name": "GitHub",
+      "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Personal Access Token",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Official reference MCP server by Anthropic/MCP core; instant free PATs."
+    },
+    {
+      "id": "supabase",
+      "app_name": "Supabase",
+      "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: API Key",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Vendor-supported MCP server by Supabase team (supabase/mcp-server-supabase)."
+    },
+    {
+      "id": "jira",
+      "app_name": "Jira",
+      "category": "PRODUCTIVITY AND PROJECT MANAGEMENT",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Basic Auth",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Free cloud tier for up to 10 users; API tokens used via HTTP Basic Auth."
+    },
+    {
+      "id": "smartsheet",
+      "app_name": "Smartsheet",
+      "category": "PRODUCTIVITY AND PROJECT MANAGEMENT",
+      "status": "PARTIAL",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Self-serve trial",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)"
+      ],
+      "failed_claims": [
+        "Buildability mismatch: expected Ready with access caveat, got Needs paid access"
+      ],
+      "failure_categories": [
+        "Paid commercial subscription confused with self-serve trial onboarding"
+      ],
+      "corrections": {
+        "buildability": "Ready with access caveat"
+      },
+      "key_notes": "30-day trial allows API key creation; ongoing API use requires paid plan."
+    },
+    {
+      "id": "stripe",
+      "app_name": "Stripe",
+      "category": "FINANCE AND FINTECH",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: API Key",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Gold standard self-serve developer sandbox with instant test keys."
+    },
+    {
+      "id": "paygent-connect",
+      "app_name": "Paygent Connect",
+      "category": "FINANCE AND FINTECH",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Basic Auth",
+        "Access Classification: Partner-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Japanese payment service provider requiring formal enterprise merchant contract."
+    },
+    {
+      "id": "notebooklm",
+      "app_name": "NotebookLM",
+      "category": "AI, RESEARCH AND MEDIA-NATIVE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Unknown",
+        "Access Classification: No developer access found",
+        "API Exists: False",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: No practical public API"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Consumer web application only; no public developer API exists."
+    },
+    {
+      "id": "devin",
+      "app_name": "Devin",
+      "category": "AI, RESEARCH AND MEDIA-NATIVE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Self-serve paid",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs paid access"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Cognition Devin API requires paid compute tokens / active subscription."
+    }
+  ],
+  "post_verification_evaluations": [
+    {
+      "id": "salesforce",
+      "app_name": "Salesforce",
+      "category": "CRM AND SALES",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Free Developer Edition is self-serve; corporate orgs require admin approval."
+    },
+    {
+      "id": "dealcloud",
+      "app_name": "DealCloud",
+      "category": "CRM AND SALES",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Contact-sales gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Requires enterprise SaaS license from Intapp; no self-serve registration."
+    },
+    {
+      "id": "zendesk",
+      "app_name": "Zendesk",
+      "category": "SUPPORT AND HELPDESK",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve trial",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready with access caveat"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "14-day trial; supports both OAuth2 and API token (Basic auth email/token:key)."
+    },
+    {
+      "id": "gladly",
+      "app_name": "Gladly",
+      "category": "SUPPORT AND HELPDESK",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Basic Auth",
+        "Access Classification: Contact-sales gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Enterprise customer service platform requiring commercial sales agreement."
+    },
+    {
+      "id": "slack",
+      "app_name": "Slack",
+      "category": "COMMUNICATIONS AND MESSAGING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Official reference MCP server by Anthropic/MCP core; app creation is free."
+    },
+    {
+      "id": "whatsapp-business",
+      "app_name": "WhatsApp Business",
+      "category": "COMMUNICATIONS AND MESSAGING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Admin-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs admin approval"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Requires Meta Business Manager, business verification, and phone number registration."
+    },
+    {
+      "id": "google-ads",
+      "app_name": "Google Ads",
+      "category": "MARKETING, ADS, EMAIL AND SOCIAL",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Admin-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs admin approval"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Requires Developer Token approval from Google in addition to OAuth2."
+    },
+    {
+      "id": "threads",
+      "app_name": "Threads",
+      "category": "MARKETING, ADS, EMAIL AND SOCIAL",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Public Threads API launched June 2024 via Meta for Developers."
+    },
+    {
+      "id": "shopify",
+      "app_name": "Shopify",
+      "category": "ECOMMERCE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: OAuth2",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Shopify Partner Program allows creating unlimited free development stores."
+    },
+    {
+      "id": "amazon-sp-api",
+      "app_name": "Amazon Selling Partner API",
+      "category": "ECOMMERCE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: AWS Signature",
+        "Access Classification: Partner-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Requires Amazon Professional Seller plan ($39.99/mo) and formal developer profile vetting."
+    },
+    {
+      "id": "sherlock",
+      "app_name": "Sherlock",
+      "category": "DATA, SEO AND SCRAPING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Unknown",
+        "Access Classification: Self-serve free",
+        "API Exists: False",
+        "CLI Tool status: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: CLI/local tool"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Open-source Python CLI script; no hosted cloud API."
+    },
+    {
+      "id": "firecrawl",
+      "app_name": "Firecrawl",
+      "category": "DATA, SEO AND SCRAPING",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Vendor-supported MCP server by Firecrawl team (mendableai/firecrawl-mcp-server)."
+    },
+    {
+      "id": "github",
+      "app_name": "GitHub",
+      "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Personal Access Token",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Official reference MCP server by Anthropic/MCP core; instant free PATs."
+    },
+    {
+      "id": "supabase",
+      "app_name": "Supabase",
+      "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: API Key",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Vendor-supported MCP server by Supabase team (supabase/mcp-server-supabase)."
+    },
+    {
+      "id": "jira",
+      "app_name": "Jira",
+      "category": "PRODUCTIVITY AND PROJECT MANAGEMENT",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Basic Auth",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Free cloud tier for up to 10 users; API tokens used via HTTP Basic Auth."
+    },
+    {
+      "id": "smartsheet",
+      "app_name": "Smartsheet",
+      "category": "PRODUCTIVITY AND PROJECT MANAGEMENT",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Self-serve trial",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready with access caveat"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "30-day trial allows API key creation; ongoing API use requires paid plan."
+    },
+    {
+      "id": "stripe",
+      "app_name": "Stripe",
+      "category": "FINANCE AND FINTECH",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: API Key",
+        "Access Classification: Self-serve free",
+        "API Exists: True",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Ready"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Gold standard self-serve developer sandbox with instant test keys."
+    },
+    {
+      "id": "paygent-connect",
+      "app_name": "Paygent Connect",
+      "category": "FINANCE AND FINTECH",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Basic Auth",
+        "Access Classification: Partner-gated",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs partnership/contact-sales"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Japanese payment service provider requiring formal enterprise merchant contract."
+    },
+    {
+      "id": "notebooklm",
+      "app_name": "NotebookLM",
+      "category": "AI, RESEARCH AND MEDIA-NATIVE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Unknown",
+        "Access Classification: No developer access found",
+        "API Exists: False",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: No practical public API"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Consumer web application only; no public developer API exists."
+    },
+    {
+      "id": "devin",
+      "app_name": "Devin",
+      "category": "AI, RESEARCH AND MEDIA-NATIVE",
+      "status": "PASS",
+      "verified_claims": [
+        "Primary Auth: Bearer Token",
+        "Access Classification: Self-serve paid",
+        "API Exists: True",
+        "CLI Tool status: False",
+        "MCP Classification (Official vs Vendor vs Community)",
+        "Buildability: Needs paid access"
+      ],
+      "failed_claims": [],
+      "failure_categories": [],
+      "corrections": {},
+      "key_notes": "Cognition Devin API requires paid compute tokens / active subscription."
+    }
+  ]
+}

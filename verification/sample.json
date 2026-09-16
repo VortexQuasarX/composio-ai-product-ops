@@ -1,0 +1,142 @@
+[
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "category": "CRM AND SALES",
+    "archetype": "Enterprise CRM / Complex Auth & Sandbox",
+    "challenge": "Distinguishing free Developer Edition sandbox from corporate org admin approval requirements."
+  },
+  {
+    "id": "dealcloud",
+    "name": "DealCloud",
+    "category": "CRM AND SALES",
+    "archetype": "Enterprise Gated B2B CRM",
+    "challenge": "Verifying sales-gating and lack of public self-serve registration despite published API docs."
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk",
+    "category": "SUPPORT AND HELPDESK",
+    "archetype": "Multi-auth Support Ticketing",
+    "challenge": "Detecting HTTP Basic Auth format (email/token:api_key) alongside OAuth2, plus admin enablement."
+  },
+  {
+    "id": "gladly",
+    "name": "Gladly",
+    "category": "SUPPORT AND HELPDESK",
+    "archetype": "Enterprise Retail Support",
+    "challenge": "Verifying enterprise sales contract requirement vs self-serve trial."
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "COMMUNICATIONS AND MESSAGING",
+    "archetype": "Platform Messaging / Official MCP",
+    "challenge": "Validating official Model Context Protocol core server vs community implementations."
+  },
+  {
+    "id": "whatsapp-business",
+    "name": "WhatsApp Business",
+    "category": "COMMUNICATIONS AND MESSAGING",
+    "archetype": "Admin-gated Telecom / Graph API",
+    "challenge": "Differentiating Meta Graph API access from Meta Business Manager approval and phone registration."
+  },
+  {
+    "id": "google-ads",
+    "name": "Google Ads",
+    "category": "MARKETING, ADS, EMAIL AND SOCIAL",
+    "archetype": "Token-gated Enterprise Ads",
+    "challenge": "Recognizing mandatory Developer Token approval process beyond standard Google OAuth2."
+  },
+  {
+    "id": "threads",
+    "name": "Threads",
+    "category": "MARKETING, ADS, EMAIL AND SOCIAL",
+    "archetype": "Modern Social Media API",
+    "challenge": "Confirming post-June 2024 Threads API availability via Meta for Developers."
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "category": "ECOMMERCE",
+    "archetype": "E-Commerce Ecosystem / Partner Sandboxes",
+    "challenge": "Confirming permanent free developer access via Shopify Partner program vs store billing plans."
+  },
+  {
+    "id": "amazon-sp-api",
+    "name": "Amazon Selling Partner API",
+    "category": "ECOMMERCE",
+    "archetype": "Complex Multi-signature Cloud API",
+    "challenge": "Verifying AWS Signature v4 requirement combined with LWA OAuth and seller registration."
+  },
+  {
+    "id": "sherlock",
+    "name": "Sherlock",
+    "category": "DATA, SEO AND SCRAPING",
+    "archetype": "Open-Source CLI Tool",
+    "challenge": "Identifying that this is a local Python CLI utility, NOT a cloud SaaS REST API."
+  },
+  {
+    "id": "firecrawl",
+    "name": "Firecrawl",
+    "category": "DATA, SEO AND SCRAPING",
+    "archetype": "AI Scraper / Vendor-supported MCP",
+    "challenge": "Verifying official vendor-supported MCP repository (mendableai/firecrawl-mcp-server)."
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+    "archetype": "Developer Platform / Official MCP",
+    "challenge": "Verifying official Anthropic MCP server and fine-grained PAT authorization."
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "category": "DEVELOPER, INFRA AND DATA PLATFORMS",
+    "archetype": "Backend-as-a-Service / Vendor MCP",
+    "challenge": "Verifying official vendor-supported MCP server (supabase/mcp-server-supabase)."
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "category": "PRODUCTIVITY AND PROJECT MANAGEMENT",
+    "archetype": "Enterprise Issue Tracker / Cloud Free Tier",
+    "challenge": "Distinguishing Atlassian API tokens (Basic Auth) from OAuth 2.0 (3LO) integrations."
+  },
+  {
+    "id": "smartsheet",
+    "name": "Smartsheet",
+    "category": "PRODUCTIVITY AND PROJECT MANAGEMENT",
+    "archetype": "Commercial Work Management",
+    "challenge": "Verifying that developer API token generation requires an active paid plan or trial."
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "category": "FINANCE AND FINTECH",
+    "archetype": "Developer-First Fintech Benchmark",
+    "challenge": "Verifying instant test-mode sandboxing with zero KYC or bank account requirements."
+  },
+  {
+    "id": "paygent-connect",
+    "name": "Paygent Connect",
+    "category": "FINANCE AND FINTECH",
+    "archetype": "Regional Japanese Enterprise Payment",
+    "challenge": "Recognizing domestic Japanese merchant screening and enterprise contract gating."
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "category": "AI, RESEARCH AND MEDIA-NATIVE",
+    "archetype": "Closed Consumer AI Web App",
+    "challenge": "Confirming absence of public developer API despite Google Cloud / Gemini brand association."
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "category": "AI, RESEARCH AND MEDIA-NATIVE",
+    "archetype": "Autonomous Agent Developer API",
+    "challenge": "Verifying Cognition Devin API session endpoints, Bearer auth, and paid usage requirements."
+  }
+]

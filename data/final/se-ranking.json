@@ -1,0 +1,98 @@
+{
+  "id": "se-ranking",
+  "app_name": "SE Ranking",
+  "category": "DATA, SEO AND SCRAPING",
+  "website": "https://seranking.com/api",
+  "one_line_description": "All-in-one SEO and digital marketing platform offering rank tracking, auditing, and competitor analysis.",
+  "authentication": {
+    "methods": [
+      "API Key"
+    ],
+    "primary_method": "API Key",
+    "oauth2": false,
+    "api_key": true,
+    "basic_auth": false,
+    "bearer_token": true,
+    "personal_access_token": false,
+    "other": "Authorization: Token <API_KEY>"
+  },
+  "credential_access": {
+    "self_serve": true,
+    "free_access": false,
+    "trial_available": true,
+    "paid_plan_required": true,
+    "admin_approval_required": false,
+    "contact_sales_required": false,
+    "partnership_required": false,
+    "developer_account_required": true,
+    "access_classification": "Self-serve paid",
+    "notes": "API access is reserved for active Pro or Business paid plan subscribers; 14-day standard UI trial offered."
+  },
+  "api": {
+    "exists": true,
+    "public": true,
+    "type": [
+      "REST"
+    ],
+    "rest": true,
+    "graphql": false,
+    "sdk": false,
+    "cli": false,
+    "webhooks": false,
+    "documentation_available": true,
+    "breadth": "Moderate",
+    "major_resource_areas": [
+      "Rank Tracking",
+      "Keyword Research",
+      "Site Audit",
+      "Competitor Research",
+      "Backlinks"
+    ]
+  },
+  "mcp": {
+    "exists": false,
+    "official": false,
+    "vendor_supported": false,
+    "community": false,
+    "composio_support": false,
+    "url": null,
+    "notes": "No MCP server found; not supported by Composio."
+  },
+  "buildability": {
+    "verdict": "Needs paid access",
+    "blocker": "Active paid subscription required for developer credentials/API access",
+    "rationale": "Free tier does not provide developer API keys or webhooks access; commercial subscription is required."
+  },
+  "evidence": [
+    {
+      "url": "https://seranking.com/api.html",
+      "title": "SE Ranking API Documentation",
+      "source_type": "official_docs",
+      "supports": [
+        "REST API",
+        "API Key",
+        "Paid plan required"
+      ],
+      "excerpt": "SE Ranking API enables automated extraction of ranking and audit data. The API is available on Pro and Business pricing plans via API token authentication.",
+      "retrieved_at": "2026-09-16T13:37:43.944828Z"
+    }
+  ],
+  "confidence": {
+    "overall": 0.62,
+    "auth": 0.6,
+    "credential_access": 0.6,
+    "api": 0.6,
+    "mcp": 0.7
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_claims": [],
+    "failed_claims": [],
+    "notes": "Initial researcher output pending independent verifier inspection."
+  },
+  "metadata": {
+    "researched_at": "2026-09-16T13:37:43.944828Z",
+    "researcher_model": "gemini-3.8-flash-agent",
+    "verification_pass": 1
+  }
+}
