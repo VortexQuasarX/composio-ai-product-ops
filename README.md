@@ -4,8 +4,13 @@
 [![Pydantic v2](https://img.shields.io/badge/schema-pydantic--v2-green.svg)](https://docs.pydantic.dev/)
 [![Audited Apps](https://img.shields.io/badge/audited%20apps-100%20(10%20categories)-purple.svg)](#100-app-scope)
 [![Verified Accuracy](https://img.shields.io/badge/audit%20accuracy-100.0%25%20(Pass%202)-emerald.svg)](#verification-experiment)
+[![Live Case Study](https://img.shields.io/badge/live%20demo-GitHub%20Pages-blue.svg)](https://vortexquasarx.github.io/composio-ai-product-ops/)
+[![GitHub Repo](https://img.shields.io/badge/github-VortexQuasarX%2Fcomposio--ai--product--ops-black.svg)](https://github.com/VortexQuasarX/composio-ai-product-ops)
 
 An end-to-end autonomous research and verification pipeline built for the **Composio AI Product Ops** assessment. This system investigates, structures, scores, and audits the developer accessibility of **100 software platforms across 10 industry categories** to determine whether and how each can be turned into an AI agent toolkit today.
+
+- **Live Case Study Web Deployment:** [https://vortexquasarx.github.io/composio-ai-product-ops/](https://vortexquasarx.github.io/composio-ai-product-ops/)
+- **Official GitHub Repository:** [https://github.com/VortexQuasarX/composio-ai-product-ops](https://github.com/VortexQuasarX/composio-ai-product-ops)
 
 ---
 
